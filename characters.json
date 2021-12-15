@@ -1,0 +1,2846 @@
+{
+    "063y - Abstract Prisoner": { 
+        "Weapon": "big Sword", 
+        "Rarity": "4", 
+        "Min": { "HP": "2408", "ATK": "257", "DEF": "192" },
+        "Max": { "HP": "33540", "ATK": "3589", "DEF": "2682" },
+        "Full Ascend": { "HP": "41289", "ATK": "4417", "DEF": "3301" },
+        "Skill": { 
+            "Name": "Toxic Vein",
+            "Effect1": "Deal",
+            "Effect2": "damge 1 time to all enemies and 100% chance to inflict poison (Reduce HP by 10% per hit) for 5 turns to all enemies.",
+            "Min": { "Num1": "50", "Gauge": "1410" },
+            "Max": { "Num1": "81"},
+            "Full Ascend": { "Num1": "100", "Gauge": "1128" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Caged Vigor",
+                "Effect1": "Increase damage by",
+                "Effect2": "if HP under 60%",
+                "A1": "16.5", 
+                "A4": "30"
+            },
+            "Second": {
+                "Name": "Aegis",
+                "Effect1": "Defense up by",
+                "A1": "11", 
+                "A4": "20"
+            }
+        }
+    },
+
+    "063y - Fractured Prisoner": { 
+        "Weapon": "Big Sword", 
+        "Rarity": "4", 
+        "Min": { "HP": "2160", "ATK": "294", "DEF": "161" },
+        "Max": { "HP": "30100", "ATK": "4105", "DEF": "2262" },
+        "Full Ascend": { "HP": "37055", "ATK": "5054", "DEF": "2785" },
+        "Skill": { 
+            "Name": "Power Swing",
+            "Effect1": "Deal",
+            "Effect2": "damage 4 times to one enemy and increase damage by",
+            "Effect3": "if critical hit",
+            "Min": { "Num1": "65", "Num2": "26", "Gauge": "1140" },
+            "Max": { "Num1": "105", "Num2": "36"},
+            "Full Ascend": { "Num1": "130", "Num2": "40", "Gauge": "912" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Vigor",
+                "Effect1": "Attack up by",
+                "A1": "13.7",
+                "A4": "25"
+            },
+            "Second": {
+                "Name": "Fatal",
+                "Effect1": "Increase Critical Damage by",
+                "Effect2": "for 60 seconds (1 activation max)",
+                "A1": "16.5", 
+                "A4": "30"
+            }
+        }
+    },
+
+    "063y - Reborn Convict": { 
+        "Weapon": "Big Sword", 
+        "Rarity": "4", 
+        "Min": { "HP": "2962", "ATK": "308", "DEF": "226" },
+        "Max": { "HP": "41262", "ATK": "4308", "DEF": "3152" },
+        "Full Ascend": { "HP": "50797", "ATK": "5303", "DEF": "3880" },
+        "Skill": { 
+            "Name": "Energy Core",
+            "Effect1": "Deal",
+            "Effect2": "damage 5 times to one enemy and deal more damage with less current HP for a max of",
+            "Min": { "Num1": "100", "Num2": "6", "Gauge": "1800" },
+            "Max": { "Num1": "163", "Num2": "16" },
+            "Full Ascend": { "Num1": "200", "Num2": "20", "Gauge": "1440" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Caged Vigor",
+                "Effect1": "Increase damage by",
+                "Effect2": "if HP under 15%.",
+                "A1": "27.5",
+                "A4": "50"
+            },
+            "Second": {
+                "Name": "Luminous Gaurd",
+                "Effect1": "Decrease light damage received by",
+                "A1": "13.7", 
+                "A4": "25"
+            }
+        }
+    },
+
+    "2B - Divergent Battler": { 
+        "Weapon": "Sword", 
+        "Rarity": "4", 
+        "Min": { "HP": "2416", "ATK": "250", "DEF": "188" },
+        "Max": { "HP": "33657", "ATK": "3481", "DEF": "2631" },
+        "Full Ascend": { "HP": "41435", "ATK": "4284", "DEF": "3239" },
+        "Skill": { 
+            "Name": "Mastery Loosed Blade",
+            "Effect1": "Deal",
+            "Effect2": "damage 5 times to one enemy and increase damage by",
+            "Effect3": "if HP under 50%",
+            "Min": { "Num1": "50", "Num2": "26", "Gauge": "1440" },
+            "Max": { "Num1": "81", "Num2": "36" },
+            "Full Ascend": { "Num1": "100", "Num2": "40", "Gauge": "1152" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Vigor",
+                "Effect1": "Attack up by",
+                "A1": "11",
+                "A4": "20"
+            },
+            "Second": {
+                "Name": "Fleetfoot",
+                "Effect1": "Agility up by",
+                "A1": "11", 
+                "A4": "20"
+            }
+        }
+    },
+
+    "2P - Mock Machine": { 
+        "Weapon": "Sword", 
+        "Rarity": "4", 
+        "Min": { "HP": "2136", "ATK": "290", "DEF": "170" },
+        "Max": { "HP": "29755", "ATK": "4058", "DEF": "2378" },
+        "Full Ascend": { "HP": "36630", "ATK": "4995", "DEF": "2926" },
+        "Skill": { 
+            "Name": "Bladed Spin x2",
+            "Effect1": "Deal",
+            "Effect2": "damage 5 times to one enemy and increase damage by",
+            "Effect3": "if HP above 80%",
+            "Min": { "Num1": "60", "Num2": "35", "Gauge": "1500" },
+            "Max": { "Num1": "97", "Num2": "52" },
+            "Full Ascend": { "Num1": "120", "Num2": "60", "Gauge": "1200" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Vigor",
+                "Effect1": "Attack up by",
+                "A1": "13.7",
+                "A4": "25"
+            },
+            "Second": {
+                "Name": "Ambush",
+                "Effect1": "Critical Rate by",
+                "A1": "11", 
+                "A4": "20"
+            }
+        }
+    },
+
+    "9S - Divergent Scanner": { 
+        "Weapon": "Sword", 
+        "Rarity": "4", 
+        "Min": { "HP": "2732", "ATK": "209", "DEF": "206" },
+        "Max": { "HP": "38055", "ATK": "2920", "DEF": "2872" },
+        "Full Ascend": { "HP": "46848", "ATK": "3593", "DEF": "3534" },
+        "Skill": { 
+            "Name": "Sundering",
+            "Effect1": "Deal",
+            "Effect2": "damage 4 times to one enemy and increase damage by",
+            "Effect3": "for 30 seconds if chains above 2",
+            "Min": { "Num1": "35", "Num2": "26", "Gauge": "1200" },
+            "Max": { "Num1": "57", "Num2": "36" },
+            "Full Ascend": { "Num1": "70", "Num2": "40", "Gauge": "960" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Aegis",
+                "Effect1": "Defense up by",
+                "A1": "11",
+                "A4": "20"
+            },
+            "Second": {
+                "Name": "Fleetfoot",
+                "Effect1": "Agility up by",
+                "A1": "11", 
+                "A4": "20"
+            }
+        }
+    },
+
+    "A2 - Divergent Attacker": { 
+        "Weapon": "Big Sword", 
+        "Rarity": "4", 
+        "Min": { "HP": "2185", "ATK": "294", "DEF": "169" },
+        "Max": { "HP": "30442", "ATK": "4196", "DEF": "2365" },
+        "Full Ascend": { "HP": "37475", "ATK": "5042", "DEF": "2909" },
+        "Skill": { 
+            "Name": "Bludgeon Multistrike",
+            "Effect1": "Deal",
+            "Effect2": "damage 4 times to one enemy and increase damage by",
+            "Effect3": "if critical hit",
+            "Min": { "Num1": "65", "Num2": "26", "Gauge": "1140" },
+            "Max": { "Num1": "105", "Num2": "36" },
+            "Full Ascend": { "Num1": "130", "Num2": "40", "Gauge": "912" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Vigor",
+                "Effect1": "Attack up by",
+                "A1": "11",
+                "A4": "20"
+            },
+            "Second": {
+                "Name": "Ambush",
+                "Effect1": "Critical Rate up by",
+                "A1": "11", 
+                "A4": "20"
+            }
+        }
+    },
+
+    "Akeha - Abstract Assassin": { 
+        "Weapon": "Big Sword", 
+        "Rarity": "4", 
+        "Min": { "HP": "2427", "ATK": "192", "DEF": "256" },
+        "Max": { "HP": "33811", "ATK": "2673", "DEF": "3572" },
+        "Full Ascend": { "HP": "41624", "ATK": "3289", "DEF": "4397" },
+        "Skill": { 
+            "Name": "Bloodbud Rend",
+            "Effect1": "Deal",
+            "Effect2": "damage 3 times to one enemy and reduce Attack by",
+            "Effect3": "for 30 seconds to one enemy",
+            "Min": { "Num1": "47", "Num2": "26", "Gauge": "1200" },
+            "Max": { "Num1": "77", "Num2": "36" },
+            "Full Ascend": { "Num1": "95", "Num2": "40", "Gauge": "960" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Aegis",
+                "Effect1": "Defense up by",
+                "Effect2": "11",
+                "A1": "20",
+                "A4": "20"
+            },
+            "Second": {
+                "Name": "Toughness",
+                "Effect1": "HP up by",
+                "A1": "11", 
+                "A4": "20"
+            }
+        }
+    },
+
+    "Akeha - Intoner Assassin": { 
+        "Weapon": "Big Sword", 
+        "Rarity": "4", 
+        "Min": { "HP": "2138", "ATK": "259", "DEF": "212" },
+        "Max": { "HP": "29792", "ATK": "3612", "DEF": "2969" },
+        "Full Ascend": { "HP": "36675", "ATK": "4446", "DEF": "3654" },
+        "Skill": { 
+            "Name": "Thorny Thistle",
+            "Effect1": "Deal",
+            "Effect2": "damage 4 times to one enemy and increase damage by",
+            "Effect3": "if HP under 50%",
+            "Min": { "Num1": "65", "Num2": "26", "Gauge": "1440" },
+            "Max": { "Num1": "105", "Num2": "36" },
+            "Full Ascend": { "Num1": "130", "Num2": "40", "Gauge": "1152" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Caged Vigor",
+                "Effect1": "Increase damage by 16.5",
+                "Effect2": "if HP under 60%",
+                "A1": "16.5",
+                "A4": "30"
+            },
+            "Second": {
+                "Name": "Aegis",
+                "Effect1": "Defense up by",
+                "A1": "11", 
+                "A4": "20"
+            }
+        }
+    },
+
+    "Akeha - Mechanical Assassin": { 
+        "Weapon": "Big Sword", 
+        "Rarity": "4", 
+        "Min": { "HP": "2490", "ATK": "247", "DEF": "197" },
+        "Max": { "HP": "34690", "ATK": "3447", "DEF": "2746" },
+        "Full Ascend": { "HP": "42706", "ATK": "4242", "DEF": "3381" },
+        "Skill": { 
+            "Name": "Mastery Lily Shear",
+            "Effect1": "Deal",
+            "Effect2": "damage 5 times to one enemy and increase damage by",
+            "Effect3": "for 30 seconds if chains above 2",
+            "Min": { "Num1": "35", "Num2": "35", "Gauge": "1200" },
+            "Max": { "Num1": "57", "Num2": "52" },
+            "Full Ascend": { "Num1": "70", "Num2": "60", "Gauge": "960" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Fleetfoot",
+                "Effect1": "Increase Agility by",
+                "Effect2": "for 60 seconds (1 activation  max)",
+                "A1": "16.5",
+                "A4": "30"
+            },
+            "Second": {
+                "Name": "Training",
+                "Effect1": "Increase chance normal attack will be 3-chain or more by",
+                "A1": "5.5", 
+                "A4": "10"
+            }
+        }
+    },
+
+    "Akeha - Reborn Swordmaster": { 
+        "Weapon": "Big Sword", 
+        "Rarity": "4", 
+        "Min": { "HP": "2563", "ATK": "348", "DEF": "204" },
+        "Max": { "HP": "35706", "ATK": "4872", "DEF": "2855" },
+        "Full Ascend": { "HP": "43955", "ATK": "5997", "DEF": "3513" },
+        "Skill": { 
+            "Name": "Water Lily",
+            "Effect1": "Deal",
+            "Effect2": "damage 1 time to all enemies and reduce weapon skill cooldown by",
+            "Effect3": "to self",
+            "Min": { "Num1": "100", "Num2": "3", "Gauge": "1800" },
+            "Max": { "Num1": "163", "Num2": "8" },
+            "Full Ascend": { "Num1": "200", "Num2": "10", "Gauge": "1440" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Ambush",
+                "Effect1": "Increase Critical Rate by",
+                "Effect2": "for 60 seconds (1 activation max)",
+                "A1": "22",
+                "A4": "40"
+            },
+            "Second": {
+                "Name": "Whirlwind Guard",
+                "Effect1": "",
+                "Effect2": "Decrease wind damage received by",
+                "A1": "13.7", 
+                "A4": "25"
+            }
+        }
+    },
+
+    "Akeha - Summer Assassin": { 
+        "Weapon": "Big Sword", 
+        "Rarity": "4", 
+        "Min": { "HP": "2221", "ATK": "299", "DEF": "175" },
+        "Max": { "HP": "30942", "ATK": "4173", "DEF": "2456" },
+        "Full Ascend": { "HP": "38092", "ATK": "5138", "DEF": "3022" },
+        "Skill": { 
+            "Name": "Brine Spray",
+            "Effect1": "Deal",
+            "Effect2": "damage 3 times to one enemy and increase damage by",
+            "Effect3": "if critical hit",
+            "Min": { "Num1": "85", "Num2": "26", "Gauge": "1140" },
+            "Max": { "Num1": "138", "Num2": "36" },
+            "Full Ascend": { "Num1": "170", "Num2": "40", "Gauge": "912" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Vigor",
+                "Effect1": "Attack up by",
+                "A1": "13.7",
+                "A4": "25"
+            },
+            "Second": {
+                "Name": "Indomitable",
+                "Effect1": "Decrease damage received by",
+                "Effect2": "for 3 damage received",
+                "A1": "11", 
+                "A4": "20"
+            }
+        }
+    },
+
+    "Argo - Abstract Traveler": { 
+        "Weapon": "Spear", 
+        "Rarity": "4", 
+        "Min": { "HP": "2237", "ATK": "216", "DEF": "259" },
+        "Max": { "HP": "31170", "ATK": "3014", "DEF": "3611" },
+        "Full Ascend": { "HP": "38373", "ATK": "3709", "DEF": "4446" },
+        "Skill": { 
+            "Name": "Perforate",
+            "Effect1": "Deal",
+            "Effect2": "damage 5 times to one enemy and increase damage by",
+            "Effect3": "for 30 seconds if chains above 2",
+            "Min": { "Num1": "35", "Num2": "26", "Gauge": "1200" },
+            "Max": { "Num1": "52", "Num2": "36" },
+            "Full Ascend": { "Num1": "60", "Num2": "40", "Gauge": "960" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Aegis",
+                "Effect1": "Increase Defense by",
+                "Effect2": "for 60 seconds (1 activation max)",
+                "A1": "27.5",
+                "A4": "50"
+            },
+            "Second": {
+                "Name": "Vigor",
+                "Effect1": "Increase Attack by",
+                "Effect2": "for 60 seconds (1 activation max)",
+                "A1": "22", 
+                "A4": "40"
+            }
+        }
+    },
+
+    "Argo - Celebratory Traveler": { 
+        "Weapon": "Spear", 
+        "Rarity": "4", 
+        "Min": { "HP": "2517", "ATK": "248", "DEF": "185" },
+        "Max": { "HP": "35072", "ATK": "3468", "DEF": "2588" },
+        "Full Ascend": { "HP": "43178", "ATK": "4267", "DEF": "3185" },
+        "Skill": { 
+            "Name": "Hunters' Banquet",
+            "Effect1": "Deal",
+            "Effect2": "damage 1 timeto all enemies with 60% chance to inflict stun for 1 turn to all enemies and increase damage by",
+            "Effect3": "for 30 seconds if chains above 2",
+            "Min": { "Num1": "40", "Num2": "35", "Gauge": "1350" },
+            "Max": { "Num1": "65", "Num2": "52" },
+            "Full Ascend": { "Num1": "80", "Num2": "60", "Gauge": "1080" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Vigor",
+                "Effect1": "Attack up by",
+                "A1": "13.7",
+                "A4": "25"
+            },
+            "Second": {
+                "Name": "Pursuit",
+                "Effect1": "Increase damage by",
+                "Effect2": "if chains above 3",
+                "A1": "16.5", 
+                "A4": "30"
+            }
+        }
+    },
+
+    "Argo - Patriotic Traveler": { 
+        "Weapon": "Spear", 
+        "Rarity": "4", 
+        "Min": { "HP": "2481", "ATK": "152", "DEF": "227" },
+        "Max": { "HP": "34554", "ATK": "2132", "DEF": "3171" },
+        "Full Ascend": { "HP": "42539", "ATK": "2624", "DEF": "3904" },
+        "Skill": { 
+            "Name": "Icicle Smash",
+            "Effect1": "Deal",
+            "Effect2": "damage 2 times to one enemy and increase damage by",
+            "Effect3": "when unit is afficted by a status ailment",
+            "Min": { "Num1": "130", "Num2": "40", "Gauge": "1500" },
+            "Max": { "Num1": "211", "Num2": "65" },
+            "Full Ascend": { "Num1": "260", "Num2": "80", "Gauge": "1200" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Bold Vigor",
+                "Effect1": "Increase damage by",
+                "Effect2": "if HP above 70%",
+                "A1": "16.5",
+                "A4": "30"
+            },
+            "Second": {
+                "Name": "Vigor",
+                "Effect1": "Attack up by",
+                "A1": "11", 
+                "A4": "20"
+            }
+        }
+    },
+
+    "Argo - Reborn Adventurer": { 
+        "Weapon": "Spear", 
+        "Rarity": "4", 
+        "Min": { "HP": "2619", "ATK": "208", "DEF": "347" },
+        "Max": { "HP": "36488", "ATK": "2903", "DEF": "4845" },
+        "Full Ascend": { "HP": "44921", "ATK": "3572", "DEF": "5963" },
+        "Skill": { 
+            "Name": "Earthsmasher",
+            "Effect1": "Deal",
+            "Effect2": "damage 2 timesto one enemy and increase Defense by",
+            "Effect3": "for 10 seconds to self",
+            "Min": { "Num1": "245", "Num2": "50", "Gauge": "1800" },
+            "Max": { "Num1": "399", "Num2": "81" },
+            "Full Ascend": { "Num1": "490", "Num2": "100", "Gauge": "1440" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Bold Vigor",
+                "Effect1": "Increase damage by",
+                "Effect2": "if HP is at 100%",
+                "A1": "27.5",
+                "A4": "50"
+            },
+            "Second": {
+                "Name": "Blaze Guard",
+                "Effect1": "Decrease fire damage received by",
+                "A1": "13.7", 
+                "A4": "25"
+            }
+        }
+    },
+
+    "Dimos - Abstract Gunman": { 
+        "Weapon": "Gun", 
+        "Rarity": "4", 
+        "Min": { "HP": "3311", "ATK": "190", "DEF": "188" },
+        "Max": { "HP": "46125", "ATK": "2664", "DEF": "2625" },
+        "Full Ascend": { "HP": "56783", "ATK": "3280", "DEF": "3231" },
+        "Skill": { 
+            "Name": "Flash Reload",
+            "Effect1": "Deal",
+            "Effect2": "damage 4 times to one enemy and 75% chance to inflict blind (Reduce accuracy by 65%) for 3 turns to one enemy",
+            "Min": { "Num1": "50", "Gauge": "1260" },
+            "Max": { "Num1": "81" },
+            "Full Ascend": { "Num1": "100", "Gauge": "1008" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Vigor",
+                "Effect1": "Attack up by",
+                "A1": "11",
+                "A4": "20"
+            },
+            "Second": {
+                "Name": "Fleetfoot",
+                "Effect1": "Agility up by",
+                "A1": "11", 
+                "A4": "20"
+            }
+        }
+    },
+
+    "Dimos - Reborn Automaton": { 
+        "Weapon": "Gun", 
+        "Rarity": "4", 
+        "Min": { "HP": "3936", "ATK": "226", "DEF": "233" },
+        "Max": { "HP": "54846", "ATK": "3156", "DEF": "3265" },
+        "Full Ascend": { "HP": "67520", "ATK": "3885", "DEF": "4018" },
+        "Skill": { 
+            "Name": "Rain of Lead",
+            "Effect1": "Deal",
+            "Effect2": "damage 1 time to all enemies",
+            "Min": { "Num1": "125", "Gauge": "1800" },
+            "Max": { "Num1": "203" },
+            "Full Ascend": { "Num1": "250", "Gauge": "1440" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Vigor",
+                "Effect1": "Increase Attack by",
+                "Effect2": "for 60 seconds (1 activation max)",
+                "A1": "22",
+                "A4": "40"
+            },
+            "Second": {
+                "Name": "Luminous Guard",
+                "Effect1": "Decrease light damage received by",
+                "A1": "13.7", 
+                "A4": "25"
+            }
+        }
+    },
+
+    "Dimos - Black Scarlet Marksman": { 
+        "Weapon": "Gun", 
+        "Rarity": "4", 
+        "Min": { "HP": "2468", "ATK": "257", "DEF": "188" },
+        "Max": { "HP": "34381", "ATK": "3589", "DEF": "2625" },
+        "Full Ascend": { "HP": "42325", "ATK": "4417", "DEF": "3131" },
+        "Skill": { 
+            "Name": "Riddle Fire",
+            "Effect1": "Deal",
+            "Effect2": "damage 5 times to one enemy and increase Defense by",
+            "Effect3": "for 30 seconds to self",
+            "Min": { "Num1": "35", "Num2": "35", "Gauge": "1110" },
+            "Max": { "Num1": "57", "Num2": "52" },
+            "Full Ascend": { "Num1": "70", "Num2": "60", "Gauge": "888" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Bold Vigor",
+                "Effect1": "Increase damage by",
+                "Effect2": "if HP above 70%",
+                "A1": "22",
+                "A4": "40"
+            },
+            "Second": {
+                "Name": "Ambush",
+                "Effect1": "Critical Rate up by",
+                "A1": "11", 
+                "A4": "20"
+            }
+        }
+    },
+
+    "Emil - Divergent Oddity": { 
+        "Weapon": "Staff", 
+        "Rarity": "4", 
+        "Min": { "HP": "2144", "ATK": "249", "DEF": "207" },
+        "Max": { "HP": "29871", "ATK": "3477", "DEF": "2892" },
+        "Full Ascend": { "HP": "36774", "ATK": "4279", "DEF": "3559" },
+        "Skill": { 
+            "Name": "Emil Crystal",
+            "Effect1": "Deal",
+            "Effect2": "damage 1 time (damage increases based on combo length) to one enemy",
+            "Min": { "Num1": "260", "Gauge": "1350" },
+            "Max": { "Num1": "423" },
+            "Full Ascend": { "Num1": "520", "Gauge": "1080" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Vigor",
+                "Effect1": "Attack up by",
+                "A1": "11",
+                "A4": "20"
+            },
+            "Second": {
+                "Name": "Aegis",
+                "Effect1": "Defense up by",
+                "A1": "11", 
+                "A4": "20"
+            }
+        }
+    },
+
+    "F66x - Abstract Captive": { 
+        "Weapon": "Staff", 
+        "Rarity": "4", 
+        "Min": { "HP": "3297", "ATK": "168", "DEF": "214" },
+        "Max": { "HP": "45934", "ATK": "2345", "DEF": "2999" },
+        "Full Ascend": { "HP": "56548", "ATK": "2884", "DEF": "3692" },
+        "Skill": { 
+            "Name": "Emergency Care",
+            "Effect1": "Heal",
+            "Effect2": "HP to all allies",
+            "Min": { "Num1": "26", "Gauge": "1800" },
+            "Max": { "Num1": "36" },
+            "Full Ascend": { "Num1": "40", "Gauge": "1440" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Pursuit",
+                "Effect1": "Increase damage by",
+                "Effect2": "if chains above 3",
+                "A1": "16.5",
+                "A4": "30"
+            },
+            "Second": {
+                "Name": "Toughness",
+                "Effect1": "HP up by",
+                "A1": "11", 
+                "A4": "20"
+            }
+        }
+    },
+
+    "F66x - Reborn Inmate": { 
+        "Weapon": "Staff", 
+        "Rarity": "4", 
+        "Min": { "HP": "4025", "ATK": "204", "DEF": "260" },
+        "Max": { "HP": "56086", "ATK": "2855", "DEF": "3632" },
+        "Full Ascend": { "HP": "69048", "ATK": "3513", "DEF": "4471" },
+        "Skill": { 
+            "Name": "Shock Burst",
+            "Effect1": "Deal",
+            "Effect2": "damage 2 times to one enemy and 60% chance to inflict stun for 1 turn to one enemy",
+            "Min": { "Num1": "245", "Gauge": "1800" },
+            "Max": { "Num1": "399" },
+            "Full Ascend": { "Num1": "490", "Gauge": "1440" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Aegis",
+                "Effect1": "Defense up by",
+                "A1": "11",
+                "A4": "20"
+            },
+            "Second": {
+                "Name": "Void Guard",
+                "Effect1": "Decrease dark damage received by",
+                "A1": "13.7", 
+                "A4": "25"
+            }
+        }
+    },
+
+    "F66x - Aya Tear Light Inmate": { 
+        "Weapon": "Staff", 
+        "Rarity": "4", 
+        "Min": { "HP": "3355", "ATK": "170", "DEF": "217" },
+        "Max": { "HP": "46737", "ATK": "2378", "DEF": "3027" },
+        "Full Ascend": { "HP": "57537", "ATK": "2965", "DEF": "3726" },
+        "Skill": { 
+            "Name": "Flash Bang",
+            "Effect1": "Deal",
+            "Effect2": "damage 5 times to one enemy and increase damage by",
+            "Effect3": "for 30 seconds to all allies if chains above 2",
+            "Min": { "Num1": "35", "Num2": "6", "Gauge": "1200" },
+            "Max": { "Num1": "57", "Num2": "16" },
+            "Full Ascend": { "Num1": "70", "Num2": "20", "Gauge": "960" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Training",
+                "Effect1": "Increase chance normal attack will be 3-chain or more by",
+                "A1": "5.5",
+                "A4": "10"
+            },
+            "Second": {
+                "Name": "Soldier",
+                "Effect1": "Increase Agility by",
+                "Effect2": "for 60 seconds to all allies (1 activation max)",
+                "A1": "8.2", 
+                "A4": "15"
+            }
+        }
+    },
+
+    "Fio - Abstract Girl": { 
+        "Weapon": "Fist", 
+        "Rarity": "4", 
+        "Min": { "HP": "2246", "ATK": "218", "DEF": "254" },
+        "Max": { "HP": "31325", "ATK": "3047", "DEF": "3550" },
+        "Full Ascend": { "HP": "38564", "ATK": "3751", "DEF": "4371" },
+        "Skill": { 
+            "Name": "I've Got This!",
+            "Effect1": "Deal",
+            "Effect2": "damage 3 times to one enemy and increase damage by",
+            "Effect3": "when unit is afflicted by a status ailment",
+            "Min": { "Num1": "85", "Num2": "40", "Gauge": "1500" },
+            "Max": { "Num1": "138", "Num2": "65" },
+            "Full Ascend": { "Num1": "170", "Num2": "80", "Gauge": "1200" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Aegis",
+                "Effect1": "Defense up by",
+                "A1": "11",
+                "A4": "20"
+            },
+            "Second": {
+                "Name": "Ambush",
+                "Effect1": "Critical Rate up by",
+                "A1": "11", 
+                "A4": "20"
+            }
+        }
+    },
+
+    "Fio - Celebratory Girl": { 
+        "Weapon": "Fist", 
+        "Rarity": "4", 
+        "Min": { "HP": "2999", "ATK": "154", "DEF": "198" },
+        "Max": { "HP": "41767", "ATK": "2147", "DEF": "198" },
+        "Full Ascend": { "HP": "51418", "ATK": "2643", "DEF": "3400" },
+        "Skill": { 
+            "Name": "Con...GRATS!",
+            "Effect1": "Deal",
+            "Effect2": "damage 2 times to one enemy and increase damage by",
+            "Effect3": "for 30 seconds to all allies",
+            "Min": { "Num1": "75", "Num2": "3", "Gauge": "1140" },
+            "Max": { "Num1": "122", "Num2": "8" },
+            "Full Ascend": { "Num1": "150", "Num2": "10", "Gauge": "912" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Vigor",
+                "Effect1": "Attack up by",
+                "A1": "11",
+                "A4": "20"
+            },
+            "Second": {
+                "Name": "Void Rush",
+                "Effect1": "Update weapon basic stats (HP, Attack, Defense) by",
+                "Effect2": "when equipped with dark weapon",
+                "A1": "13.7", 
+                "A4": "25"
+            }
+        }
+    },
+
+    "Fio - Intoner Girl": { 
+        "Weapon": "Fist", 
+        "Rarity": "4", 
+        "Min": { "HP": "2732", "ATK": "213", "DEF": "208" },
+        "Max": { "HP": "38055", "ATK": "2974", "DEF": "2906" },
+        "Full Ascend": { "HP": "46848", "ATK": "3659", "DEF": "3576" },
+        "Skill": { 
+            "Name": "Come On, Everybody!",
+            "Effect1": "Heal",
+            "Effect2": "HP to all allies and Cure 1 status ailment (newest applied) to all allies",
+            "Min": { "Num1": "16", "Gauge": "1800" },
+            "Max": { "Num1": "26" },
+            "Full Ascend": { "Num1": "30", "Gauge": "1440" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Pursuit",
+                "Effect1": "Increase damage by",
+                "Effect2": "if chains above 3",
+                "A1": "16.5",
+                "A4": "30"
+            },
+            "Second": {
+                "Name": "Fleetfoot",
+                "Effect1": "Agility up by",
+                "A1": "11", 
+                "A4": "20"
+            }
+        }
+    },
+
+    "Fio - Mechanical Girl": { 
+        "Weapon": "Fist", 
+        "Rarity": "4", 
+        "Min": { "HP": "2550", "ATK": "259", "DEF": "190" },
+        "Max": { "HP": "35530", "ATK": "3612", "DEF": "2671" },
+        "Full Ascend": { "HP": "43741", "ATK": "4446", "DEF": "3288" },
+        "Skill": { 
+            "Name": "Mastery Hi-yah!",
+            "Effect1": "Deal",
+            "Effect2": "damage 4 times to one enemy and increase Agility by",
+            "Effect3": "for 30 seconds to all allies",
+            "Min": { "Num1": "35", "Num2": "6", "Gauge": "1050" },
+            "Max": { "Num1": "57", "Num2": "16" },
+            "Full Ascend": { "Num1": "70", "Num2": "20", "Gauge": "840" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Aegis",
+                "Effect1": "Defense up by",
+                "A1": "11",
+                "A4": "20"
+            },
+            "Second": {
+                "Name": "Toughness",
+                "Effect1": "HP up by",
+                "A1": "11", 
+                "A4": "20"
+            }
+        }
+    },
+
+    "Fio - Reborn Princess": { 
+        "Weapon": "Fist", 
+        "Rarity": "4", 
+        "Min": { "HP": "3262", "ATK": "200", "DEF": "305" },
+        "Max": { "HP": "45438", "ATK": "2801", "DEF": "4266" },
+        "Full Ascend": { "HP": "55939", "ATK": "3447", "DEF": "5252" },
+        "Skill": { 
+            "Name": "(Selfish Heal)",
+            "Effect1": "Deal",
+            "Effect2": "damage 5 times to one enemy and Heal",
+            "Effect3": "HP to self",
+            "Min": { "Num1": "100", "Num2": "32", "Gauge": "1800" },
+            "Max": { "Num1": "163", "Num2": "42" },
+            "Full Ascend": { "Num1": "200", "Num2": "50", "Gauge": "1440" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Fleetfoot",
+                "Effect1": "Increase Agility by",
+                "Effect2": "for 60 seconds (1 activation max)",
+                "A1": "22",
+                "A4": "40"
+            },
+            "Second": {
+                "Name": "Void Guard",
+                "Effect1": "Decrease dark damage received by",
+                "A1": "13.7", 
+                "A4": "25"
+            }
+        }
+    },
+
+    "Fio - Simulacrum Girl": { 
+        "Weapon": "Fist", 
+        "Rarity": "4", 
+        "Min": { "HP": "2718", "ATK": "166", "DEF": "255" },
+        "Max": { "HP": "37863", "ATK": "2334", "DEF": "3554" },
+        "Full Ascend": { "HP": "46612", "ATK": "2872", "DEF": "4376" },
+        "Skill": { 
+            "Name": "Manifest Effort",
+            "Effect1": "Deal",
+            "Effect2": "damage 3 times to one enemy and Heal",
+            "Effect3": "HP to all allies",
+            "Min": { "Num1": "47", "Num2": "16", "Gauge": "1800" },
+            "Max": { "Num1": "77", "Num2": "26" },
+            "Full Ascend": { "Num1": "95", "Num2": "30", "Gauge": "1440" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Aegis",
+                "Effect1": "Defense up by",
+                "A1": "13.7",
+                "A4": "25"
+            },
+            "Second": {
+                "Name": "Pursuit",
+                "Effect1": "Increase damage by",
+                "Effect2": "if chains above 3",
+                "A1": "16.5", 
+                "A4": "30"
+            }
+        }
+    },
+
+    "Fio - Summer Girl": { 
+        "Weapon": "Fist", 
+        "Rarity": "4", 
+        "Min": { "HP": "3350", "ATK": "188", "DEF": "184" },
+        "Max": { "HP": "46663", "ATK": "2531", "DEF": "2581" },
+        "Full Ascend": { "HP": "57447", "ATK": "3239", "DEF": "3176" },
+        "Skill": { 
+            "Name": "Ready, Set, GO!",
+            "Effect1": "Deal",
+            "Effect2": "damage 3 times (damage increases based on combo length) to one enemy",
+            "Min": { "Num1": "55", "Gauge": "1350" },
+            "Max": { "Num1": "89" },
+            "Full Ascend": { "Num1": "110", "Gauge": "1080" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Pursuit",
+                "Effect1": "Increase damage by",
+                "Effect2": "if chains above 3",
+                "A1": "22",
+                "A4": "40"
+            },
+            "Second": {
+                "Name": "Toughness",
+                "Effect1": "HP up by",
+                "A1": "11", 
+                "A4": "20"
+            }
+        }
+    },
+
+    "Gayle - Abstract Hunter": { 
+        "Weapon": "Sword", 
+        "Rarity": "4", 
+        "Min": { "HP": "2534", "ATK": "251", "DEF": "193" },
+        "Max": { "HP": "35302", "ATK": "3507", "DEF": "2705" },
+        "Full Ascend": { "HP": "43459", "ATK": "4317", "DEF": "3330" },
+        "Skill": { 
+            "Name": "Fatal Pierce",
+            "Effect1": "Deal",
+            "Effect2": "damage 5 times to one enemy and increase Attack by",
+            "Effect3": "for 30 seconds to all allies",
+            "Min": { "Num1": "35", "Num2": "6", "Gauge": "1140" },
+            "Max": { "Num1": "52", "Num2": "16" },
+            "Full Ascend": { "Num1": "60", "Num2": "20", "Gauge": "912" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Vigor",
+                "Effect1": "Attack up by",
+                "A1": "11",
+                "A4": "20"
+            },
+            "Second": {
+                "Name": "Fleetfoot",
+                "Effect1": "Agility up by",
+                "A1": "11", 
+                "A4": "20"
+            }
+        }
+    },
+
+    "Gayle - Bloody Hunter": { 
+        "Weapon": "Sword", 
+        "Rarity": "4", 
+        "Min": { "HP": "2416", "ATK": "247", "DEF": "183" },
+        "Max": { "HP": "33657", "ATK": "3462", "DEF": "2566" },
+        "Full Ascend": { "HP": "41435", "ATK": "4262", "DEF": "3195" },
+        "Skill": { 
+            "Name": "Darting Blades",
+            "Effect1": "Deal",
+            "Effect2": "damage 3 times (damage increases based on combo length) to one enemy",
+            "Min": { "Num1": "55", "Gauge": "1350" },
+            "Max": { "Num1": "89" },
+            "Full Ascend": { "Num1": "110", "Gauge": "1080" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Pursuit",
+                "Effect1": "Increase damage by",
+                "Effect2": "if chains above 3",
+                "A1": "22",
+                "A4": "40"
+            },
+            "Second": {
+                "Name": "Fleetfoot",
+                "Effect1": "Agility up by",
+                "A1": "11", 
+                "A4": "20"
+            }
+        }
+    },
+
+    "Gayle - Celebratory Hunter": { 
+        "Weapon": "Sword", 
+        "Rarity": "4", 
+        "Min": { "HP": "2160", "ATK": "301", "DEF": "165" },
+        "Max": { "HP": "30100", "ATK": "4208", "DEF": "2305" },
+        "Full Ascend": { "HP": "37055", "ATK": "5180", "DEF": "2836" },
+        "Skill": { 
+            "Name": "Festive Dance",
+            "Effect1": "Deal",
+            "Effect2": "damage 4 times to one enemy and reduce Defense by",
+            "Effect3": "for 30 seconds to one enemy",
+            "Min": { "Num1": "42", "Num2": "32", "Gauge": "1260" },
+            "Max": { "Num1": "69", "Num2": "42" },
+            "Full Ascend": { "Num1": "85", "Num2": "50", "Gauge": "1008" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Bold Vigor",
+                "Effect1": "Increase damage by",
+                "Effect2": "if HP above 70",
+                "A1": "22",
+                "A4": "40"
+            },
+            "Second": {
+                "Name": "Vigor",
+                "Effect1": "Attack up by",
+                "A1": "13.7", 
+                "A4": "25"
+            }
+        }
+    },
+
+    "Gayle - Reborn Contractor": { 
+        "Weapon": "Sword", 
+        "Rarity": "4", 
+        "Min": { "HP": "2893", "ATK": "305", "DEF": "221" },
+        "Max": { "HP": "40295", "ATK": "4259", "DEF": "3084" },
+        "Full Ascend": { "HP": "49606", "ATK": "5242", "DEF": "3797" },
+        "Skill": { 
+            "Name": "Thorned Bloom",
+            "Effect1": "Deal",
+            "Effect2": "damage 3 times to one enemy and reduce weapon skill cooldown by",
+            "Effect3": "to self",
+            "Min": { "Num1": "165", "Num2": "3", "Gauge": "1800" },
+            "Max": { "Num1": "268", "Num2": "8" },
+            "Full Ascend": { "Num1": "330", "Num2": "10", "Gauge": "1440" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Fleetfoot",
+                "Effect1": "Increase Agility by",
+                "Effect2": "for 60 seconds (1 activation max)",
+                "A1": "22",
+                "A4": "40"
+            },
+            "Second": {
+                "Name": "Icewater Guard",
+                "Effect1": "Decrease water damage received by",
+                "A1": "13.7", 
+                "A4": "25"
+            }
+        }
+    },
+
+    "Griff - Abstract Captain": { 
+        "Weapon": "Gun", 
+        "Rarity": "4", 
+        "Min": { "HP": "2718", "ATK": "257", "DEF": "175" },
+        "Max": { "HP": "37863", "ATK": "3592", "DEF": "2456" },
+        "Full Ascend": { "HP": "46612", "ATK": "4421", "DEF": "3022" },
+        "Skill": { 
+            "Name": "Controlled Incineration",
+            "Effect1": "Deal",
+            "Effect2": "damage 1 time to all enemies and increase Attack by",
+            "Effect3": "for 30 seconds to all allies",
+            "Min": { "Num1": "70", "Num2": "16", "Gauge": "1140" },
+            "Max": { "Num1": "114", "Num2": "26" },
+            "Full Ascend": { "Num1": "140", "Num2": "30", "Gauge": "912" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Vigor",
+                "Effect1": "Attack up by",
+                "A1": "13.7",
+                "A4": "25"
+            },
+            "Second": {
+                "Name": "Ambush",
+                "Effect1": "Critical Rate up by",
+                "A1": "11", 
+                "A4": "20"
+            }
+        }
+    },
+
+    "Griff - Celebratory Captain": { 
+        "Weapon": "Gun", 
+        "Rarity": "4", 
+        "Min": { "HP": "3281", "ATK": "188", "DEF": "194" },
+        "Max": { "HP": "45704", "ATK": "2628", "DEF": "2716" },
+        "Full Ascend": { "HP": "56266", "ATK": "3235", "DEF": "3343" },
+        "Skill": { 
+            "Name": "Salute",
+            "Effect1": "Deal",
+            "Effect2": "damage 3 times to one enemy and reduce Attack by",
+            "Effect3": "for 30 seconds to one enemy",
+            "Min": { "Num1": "60", "Num2": "32", "Gauge": "1200" },
+            "Max": { "Num1": "97", "Num2": "42" },
+            "Full Ascend": { "Num1": "120", "Num2": "50", "Gauge": "960" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Bold Vigor",
+                "Effect1": "Increase damage by",
+                "Effect2": "if HP above 70%",
+                "A1": "22",
+                "A4": "40"
+            },
+            "Second": {
+                "Name": "Icewater Rush",
+                "Effect1": "Update weapon basic stats (HP, Attack, Defense) by",
+                "Effect2": "when equipped with water weapon",
+                "A1": "22", 
+                "A4": "40"
+            }
+        }
+    },
+
+    "Griff - Reborn Has-Been": { 
+        "Weapon": "Gun", 
+        "Rarity": "4", 
+        "Min": { "HP": "2883", "ATK": "222", "DEF": "312" },
+        "Max": { "HP": "40157", "ATK": "3095", "DEF": "4347" },
+        "Full Ascend": { "HP": "49436", "ATK": "3809", "DEF": "5350" },
+        "Skill": { 
+            "Name": "Assault Operation",
+            "Effect1": "Deal",
+            "Effect2": "damage 5 times to (damage increases based on combo length) to one enemy and increase Attack by",
+            "Effect3": "for 15 seconds to self",
+            "Min": { "Num1": "75", "Num2": "6", "Gauge": "1800" },
+            "Max": { "Num1": "122", "Num2": "16" },
+            "Full Ascend": { "Num1": "150", "Num2": "20", "Gauge": "1440" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Pursuit",
+                "Effect1": "Increase damage by",
+                "Effect2": "if chains above 5",
+                "A1": "27.5",
+                "A4": "50"
+            },
+            "Second": {
+                "Name": "Icewater Guard",
+                "Effect1": "Decrease water damage received by",
+                "A1": "13.7", 
+                "A4": "25"
+            }
+        }
+    },
+
+    "Kainé - Divergent Warrior": { 
+        "Weapon": "Sword", 
+        "Rarity": "4", 
+        "Min": { "HP": "2438", "ATK": "192", "DEF": "260" },
+        "Max": { "HP": "33960", "ATK": "2685", "DEF": "3626" },
+        "Full Ascend": { "HP": "41807", "ATK": "3305", "DEF": "4463" },
+        "Skill": { 
+            "Name": "I'll #$@& You Up!",
+            "Effect1": "Deal",
+            "Effect2": "damage 3 times to one enemy and increase damage by",
+            "Effect3": "if HP above 80%",
+            "Min": { "Num1": "85", "Num2": "26", "Gauge": "1500" },
+            "Max": { "Num1": "138", "Num2": "36" },
+            "Full Ascend": { "Num1": "170", "Num2": "40", "Gauge": "1200" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Bold Vigor",
+                "Effect1": "Increase damage by",
+                "Effect2": "if HP above 70%",
+                "A1": "16.5",
+                "A4": "30"
+            },
+            "Second": {
+                "Name": "Aegis",
+                "Effect1": "Defense up by",
+                "A1": "11", 
+                "A4": "20"
+            }
+        }
+    },
+
+    "Lars - Abstract Soldier": { 
+        "Weapon": "Sword", 
+        "Rarity": "4", 
+        "Min": { "HP": "2718", "ATK": "247", "DEF": "168" },
+        "Max": { "HP": "37863", "ATK": "3456", "DEF": "2342" },
+        "Full Ascend": { "HP": "46612", "ATK": "4254", "DEF": "2880" },
+        "Skill": { 
+            "Name": "Judgement",
+            "Effect1": "Deal",
+            "Effect2": "damage 4 times to one enemy and 20% chance to inflict stun for 1 turns  to one enemy",
+            "Min": { "Num1": "35", "Gauge": "1260" },
+            "Max": { "Num1": "57" },
+            "Full Ascend": { "Num1": "70", "Gauge": "1008" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Pursuit",
+                "Effect1": "Increase damage by",
+                "Effect2": "if chains above 3",
+                "A1": "16.5",
+                "A4": "30"
+            },
+            "Second": {
+                "Name": "Fleetfoot",
+                "Effect1": "Agility up by",
+                "A1": "11", 
+                "A4": "20"
+            }
+        }
+    },
+
+    "Lars - Reborn Truant": { 
+        "Weapon": "Sword", 
+        "Rarity": "4", 
+        "Min": { "HP": "3021", "ATK": "298", "DEF": "222" },
+        "Max": { "HP": "42085", "ATK": "4165", "DEF": "3106" },
+        "Full Ascend": { "HP": "51811", "ATK": "5129", "DEF": "3823" },
+        "Skill": { 
+            "Name": "Excecution",
+            "Effect1": "Deal",
+            "Effect2": "damage 3 times to one enemy and increase damage by",
+            "Effect3": "if critical hit",
+            "Min": { "Num1": "165", "Num2": "50", "Gauge": "1800" },
+            "Max": { "Num1": "268", "Num2": "81" },
+            "Full Ascend": { "Num1": "330", "Num2": "100", "Gauge": "1440" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Fatal",
+                "Effect1": "Increase Critical Damage by",
+                "Effect2": "for 60 seconds (1 activation max)",
+                "A1": "22",
+                "A4": "40"
+            },
+            "Second": {
+                "Name": "Whirlwind Guard",
+                "Effect1": "Decrease wind damage received by",
+                "A1": "13.7", 
+                "A4": "25"
+            }
+        }
+    },
+
+    "Lars - Crushing Soldier": { 
+        "Weapon": "Sword", 
+        "Rarity": "4", 
+        "Min": { "HP": "2696", "ATK": "212", "DEF": "208" },
+        "Max": { "HP": "37559", "ATK": "2963", "DEF": "2913" },
+        "Full Ascend": { "HP": "46238", "ATK": "3646", "DEF": "3584" },
+        "Skill": { 
+            "Name": "Soul Destruction",
+            "Effect1": "Deal",
+            "Effect2": "damage 3 times to one enemy and reduce Defense by",
+            "Effect3": "for 30 seconds to one enemy",
+            "Min": { "Num1": "60", "Num2": "32", "Gauge": "1260" },
+            "Max": { "Num1": "97", "Num2": "42" },
+            "Full Ascend": { "Num1": "120", "Num2": "50", "Gauge": "1008" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Fleetfoot",
+                "Effect1": "Agility up by",
+                "A1": "11",
+                "A4": "20"
+            },
+            "Second": {
+                "Name": "Gale Breakthrough",
+                "Effect1": "Update weapon basic stasts (HP, Attack, Defense) by",
+                "Effect2": "when equipped with wind weapon",
+                "A1": "22", 
+                "A4": "40"
+            }
+        }
+    },
+
+    "Levania - Reborn Beast": { 
+        "Weapon": "Fist", 
+        "Rarity": "4", 
+        "Min": { "HP": "3379", "ATK": "308", "DEF": "207" },
+        "Max": { "HP": "47092", "ATK": "4293", "DEF": "2896" },
+        "Full Ascend": { "HP": "57975", "ATK": "5284", "DEF": "3565" },
+        "Skill": { 
+            "Name": "Overrun",
+            "Effect1": "Deal",
+            "Effect2": "damage 5 times to one enemy and reduce Defense by",
+            "Effect3": "for 30 seconds to one enemy",
+            "Min": { "Num1": "100", "Num2": "16", "Gauge": "1800" },
+            "Max": { "Num1": "163", "Num2": "26" },
+            "Full Ascend": { "Num1": "200", "Num2": "30", "Gauge": "1440" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Vigor",
+                "Effect1": "Increase Attack by",
+                "Effect2": "for 60 seconds (1 activation max)",
+                "A1": "22",
+                "A4": "40"
+            },
+            "Second": {
+                "Name": "Luminous Guard",
+                "Effect1": "Decrease light damage received by",
+                "A1": "13.7", 
+                "A4": "25"
+            }
+        }
+    },
+
+    "Levania - Metaphysical Beast": { 
+        "Weapon": "Fist", 
+        "Rarity": "4", 
+        "Min": { "HP": "2789", "ATK": "257", "DEF": "175" },
+        "Max": { "HP": "38858", "ATK": "3595", "DEF": "2453" },
+        "Full Ascend": { "HP": "47838", "ATK": "4425", "DEF": "3018" },
+        "Skill": { 
+            "Name": "Slash and Tear",
+            "Effect1": "Deal",
+            "Effect2": "damage 5 times to one enemy and 75% chance to inflict blind (Reduce accuracy by 65%) for 3 turns to one enemy",
+            "Min": { "Num1": "45", "Gauge": "1260" },
+            "Max": { "Num1": "73" },
+            "Full Ascend": { "Num1": "90", "Gauge": "1008" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Caged Vigor",
+                "Effect1": "Increase damage by",
+                "Effect2": "if HP under 60%",
+                "A1": "11",
+                "A4": "20"
+            },
+            "Second": {
+                "Name": "Vigor",
+                "Effect1": "Attack up by",
+                "A1": "11", 
+                "A4": "20"
+            }
+        }
+    },
+
+    "Noelle - Abstract Weapon": { 
+        "Weapon": "Spear", 
+        "Rarity": "4", 
+        "Min": { "HP": "2122", "ATK": "257", "DEF": "214" },
+        "Max": { "HP": "29563", "ATK": "3601", "DEF": "2997" },
+        "Full Ascend": { "HP": "36393", "ATK": "4433", "DEF": "3688" },
+        "Skill": { 
+            "Name": "Clavis' Bit",
+            "Effect1": "Deal",
+            "Effect2": "damage 5 times to one enemy and increase damage by",
+            "Effect3": "if HP above 80%",
+            "Min": { "Num1": "60", "Num2": "35", "Gauge": "1500" },
+            "Max": { "Num1": "97", "Num2": "52" },
+            "Full Ascend": { "Num1": "120", "Num2": "60", "Gauge": "1200" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Vigor",
+                "Effect1": "Attack up by",
+                "A1": "13.7",
+                "A4": "25"
+            },
+            "Second": {
+                "Name": "Recovery",
+                "Effect1": "Heal",
+                "Effect2": "HP if HP under 70% (1 activation max)",
+                "A1": "11", 
+                "A4": "20"
+            }
+        }
+    },
+
+    "Noelle - Celebratory Weapon": { 
+        "Weapon": "Spear", 
+        "Rarity": "4", 
+        "Min": { "HP": "2671", "ATK": "213", "DEF": "207" },
+        "Max": { "HP": "37213", "ATK": "2983", "DEF": "2889" },
+        "Full Ascend": { "HP": "45812", "ATK": "3671", "DEF": "3555" },
+        "Skill": { 
+            "Name": "Thunder of God",
+            "Effect1": "Deal",
+            "Effect2": "damage 4 times to one enemy and increase Attack by",
+            "Effect3": "for 30 seconds to all allies",
+            "Min": { "Num1": "42", "Num2": "16", "Gauge": "1140" },
+            "Max": { "Num1": "69", "Num2": "26" },
+            "Full Ascend": { "Num1": "85", "Num2": "30", "Gauge": "912" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Valiance",
+                "Effect1": "Increase Attack by",
+                "Effect2": "for 60 seconds to all allies (1 activation max)",
+                "A1": "8.2",
+                "A4": "15"
+            },
+            "Second": {
+                "Name": "Luminous Rush",
+                "Effect1": "Update weapon basic stats (HP, Attack, Defense) by",
+                "Effect2": "when equipped with light weapon",
+                "A1": "22", 
+                "A4": "40"
+            }
+        }
+    },
+
+    "Noelle - Reborn Warlady": { 
+        "Weapon": "Spear", 
+        "Rarity": "4", 
+        "Min": { "HP": "2708", "ATK": "252", "DEF": "309" },
+        "Max": { "HP": "37725", "ATK": "3528", "DEF": "4311" },
+        "Full Ascend": { "HP": "46442", "ATK": "4343", "DEF": "5305" },
+        "Skill": { 
+            "Name": "Atra Meteor",
+            "Effect1": "Deal",
+            "Effect2": "damage 3 times to one enemy and deal more damage with more current HP for a max of",
+            "Min": { "Num1": "165", "Num2": "6", "Gauge": "1800" },
+            "Max": { "Num1": "268", "Num2": "16" },
+            "Full Ascend": { "Num1": "330", "Num2": "20", "Gauge": "1440" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Recovery",
+                "Effect1": "Heal",
+                "Effect2": "HP if HP under 70% (1 activation max)",
+                "A1": "22",
+                "A4": "40"
+            },
+            "Second": {
+                "Name": "Blaze Guard",
+                "Effect1": "Decrease fire damage received by",
+                "A1": "13.7", 
+                "A4": "25"
+            }
+        }
+    },
+
+    "Rion - Abstract Exile": { 
+        "Weapon": "Staff", 
+        "Rarity": "4", 
+        "Min": { "HP": "2674", "ATK": "211", "DEF": "212" },
+        "Max": { "HP": "37250", "ATK": "2952", "DEF": "2966" },
+        "Full Ascend": { "HP": "45858", "ATK": "3634", "DEF": "3650" },
+        "Skill": { 
+            "Name": " Manifesto of War's End",
+            "Effect1": "Deal",
+            "Effect2": "damage 1 time to all enemies and reduce Attack by",
+            "Effect3": "for 30 seconds to all enemies",
+            "Min": { "Num1": "40", "Num2": "6", "Gauge": "1050" },
+            "Max": { "Num1": "65", "Num2": "16" },
+            "Full Ascend": { "Num1": "80", "Num2": "20", "Gauge": "840" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Aegis",
+                "Effect1": "Defense up by",
+                "A1": "13.7",
+                "A4": "25"
+            },
+            "Second": {
+                "Name": "Vigor",
+                "Effect1": "Attack up by",
+                "A1": "11", 
+                "A4": "20"
+            }
+        }
+    },
+
+    "Rion - Mechanical Exile": { 
+        "Weapon": "Staff", 
+        "Rarity": "4", 
+        "Min": { "HP": "2658", "ATK": "216", "DEF": "213" },
+        "Max": { "HP": "37022", "ATK": "3020", "DEF": "2986" },
+        "Full Ascend": { "HP": "45576", "ATK": "3717", "DEF": "3675" },
+        "Skill": { 
+            "Name": "Manifest Bravery",
+            "Effect1": "Deal",
+            "Effect2": "damage 2 times to one enemy and increase damage by",
+            "Effect3": "if HP under 50%",
+            "Min": { "Num1": "130", "Num2": "26", "Gauge": "1440" },
+            "Max": { "Num1": "211", "Num2": "36" },
+            "Full Ascend": { "Num1": "260", "Num2": "40", "Gauge": "1152" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Vigor",
+                "Effect1": "Attack up by",
+                "A1": "11",
+                "A4": "20"
+            },
+            "Second": {
+                "Name": "Toughness",
+                "Effect1": "HP up by",
+                "A1": "11", 
+                "A4": "20"
+            }
+        }
+    },
+
+    "Rion - Reborn Revolutionary": { 
+        "Weapon": "Staff", 
+        "Rarity": "4", 
+        "Min": { "HP": "3015", "ATK": "230", "DEF": "297" },
+        "Max": { "HP": "41994", "ATK": "3206", "DEF": "4142" },
+        "Full Ascend": { "HP": "51698", "ATK": "3947", "DEF": "5099" },
+        "Skill": { 
+            "Name": "Aid's Will",
+            "Effect1": "Deal",
+            "Effect2": "damage 1 time to all enemies and recover 10% HP for 3 turns to all allies",
+            "Min": { "Num1": "100", "Gauge": "1800" },
+            "Max": { "Num1": "163" },
+            "Full Ascend": { "Num1": "200", "Gauge": "1440" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Toughness",
+                "Effect1": "HP up by",
+                "A1": "22",
+                "A4": "40"
+            },
+            "Second": {
+                "Name": "Void Guard",
+                "Effect1": "Decrease dark damage received by",
+                "A1": "13.7", 
+                "A4": "25"
+            }
+        }
+    },
+
+    "Rion - Summer Exile": { 
+        "Weapon": "Staff", 
+        "Rarity": "4", 
+        "Min": { "HP": "2515", "ATK": "254", "DEF": "188" },
+        "Max": { "HP": "35035", "ATK": "3544", "DEF": "2625" },
+        "Full Ascend": { "HP": "43133", "ATK": "4363", "DEF": "3231" },
+        "Skill": { 
+            "Name": "Oceanic Ambition",
+            "Effect1": "Deal",
+            "Effect2": "damage 4 times to one enemy and increase damage by",
+            "Effect3": "if HP above 80%",
+            "Min": { "Num1": "75", "Num2": "35", "Gauge": "1300" },
+            "Max": { "Num1": "122", "Num2": "52" },
+            "Full Ascend": { "Num1": "150", "Num2": "60", "Gauge": "1200" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Bold Vigor",
+                "Effect1": "Increase damage by",
+                "Effect2": "if HP above 70%",
+                "A1": "22",
+                "A4": "40"
+            },
+            "Second": {
+                "Name": "Fleetfoot",
+                "Effect1": "Increase Agility by",
+                "Effect2": "for 60 seconds (1 activation max)",
+                "A1": "16.5", 
+                "A4": "30"
+            }
+        }
+    },
+
+    "The World-Ender - Divergent Lad": { 
+        "Weapon": "Spear", 
+        "Rarity": "4", 
+        "Min": { "HP": "2466", "ATK": "260", "DEF": "189" },
+        "Max": { "HP": "34344", "ATK": "3629", "DEF": "2645" },
+        "Full Ascend": { "HP": "42279", "ATK": "4467", "DEF": "3255" },
+        "Skill": { 
+            "Name": "Might Blitz",
+            "Effect1": "Deal",
+            "Effect2": "damage 4 times to one enemy and increase Critical Rate by",
+            "Effect3": "for 30 seconds to all allies",
+            "Min": { "Num1": "35", "Num2": "6", "Gauge": "1140" },
+            "Max": { "Num1": "57", "Num2": "16" },
+            "Full Ascend": { "Num1": "70", "Num2": "20", "Gauge": "912" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Fatal",
+                "Effect1": "Critical Damage up by",
+                "A1": "11",
+                "A4": "20"
+            },
+            "Second": {
+                "Name": "Vigor",
+                "Effect1": "Attack up by",
+                "A1": "11", 
+                "A4": "20"
+            }
+        }
+    },
+
+    "Zero - Divergent Sister": { 
+        "Weapon": "Sword", 
+        "Rarity": "4", 
+        "Min": { "HP": "2281", "ATK": "298", "DEF": "166" },
+        "Max": { "HP": "31782", "ATK": "4165", "DEF": "2321" },
+        "Full Ascend": { "HP": "39127", "ATK": "5129", "DEF": "2857" },
+        "Skill": { 
+            "Name": "Lacerate",
+            "Effect1": "Deal",
+            "Effect2": "damage 1 time to all enemies",
+            "Min": { "Num1": "85", "Gauge": "1200" },
+            "Max": { "Num1": "138" },
+            "Full Ascend": { "Num1": "170", "Gauge": "960" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Vigor",
+                "Effect1": "Attack up by",
+                "A1": "11",
+                "A4": "20"
+            },
+            "Second": {
+                "Name": "Fatal",
+                "Effect1": "Critical Damage up by",
+                "A1": "11", 
+                "A4": "20"
+            }
+        }
+    }, 
+
+    "063y - Dissenting Prisoner": { 
+        "Weapon": "Big Sword", 
+        "Rarity": "3", 
+        "Min": { "HP": "2013", "ATK": "216", "DEF": "160" },
+        "Max": { "HP": "24629", "ATK": "2651", "DEF": "1976" },
+        "Full Ascend": { "HP": "31350", "ATK": "3374", "DEF": "2515" },
+        "Skill": { 
+            "Name": "THRUST +alpha",
+            "Effect1": "Deal",
+            "Effect2": "damage 3 times to one enemy and increase damage by",
+            "Effect3": "if HP under 20%",
+            "Min": { "Num1": "78", "Num2": "35", "Gauge": "1440" },
+            "Max": { "Num1": "117", "Num2": "52" },
+            "Full Ascend": { "Num1": "140", "Num2": "60", "Gauge": "1152" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Caged Vigor",
+                "Effect1": "Increase damage by",
+                "Effect2": "if HP under 60%",
+                "A1": "13.2",
+                "A4": "24"
+            },
+            "Second": {
+                "Name": "Toughness",
+                "Effect1": "HP up by",
+                "A1": "8.8", 
+                "A4": "16"
+            }
+        }
+    },
+
+    "2B - Praying Battler": { 
+        "Weapon": "Sword", 
+        "Rarity": "3", 
+        "Min": { "HP": "1991", "ATK": "161", "DEF": "208" },
+        "Max": { "HP": "24346", "ATK": "1980", "DEF": "2559" },
+        "Full Ascend": { "HP": "30989", "ATK": "2519", "DEF": "3256" },
+        "Skill": { 
+            "Name": "Aerial Freed Bludgeon",
+            "Effect1": "Deal",
+            "Effect2": "damage 4 times to one enemy and increase damage by",
+            "Effect3": "for 30 seconds if chains above 2",
+            "Min": { "Num1": "35", "Num2": "16", "Gauge": "1200" },
+            "Max": { "Num1": "52", "Num2": "26" },
+            "Full Ascend": { "Num1": "60", "Num2": "30", "Gauge": "960" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Aegis",
+                "Effect1": "Defense up by",
+                "A1": "8.8",
+                "A4": "16"
+            },
+            "Second": {
+                "Name": "Vigor",
+                "Effect1": "Attack up by",
+                "A1": "8.8", 
+                "A4": "16"
+            }
+        }
+    },
+
+    "9S - Isolated Scanner": { 
+        "Weapon": "Sword", 
+        "Rarity": "3", 
+        "Min": { "HP": "2130", "ATK": "214", "DEF": "157" },
+        "Max": { "HP": "26055", "ATK": "2633", "DEF": "1933" },
+        "Full Ascend": { "HP": "33164", "ATK": "3352", "DEF": "2461" },
+        "Skill": { 
+            "Name": "Horizon Freed Blade",
+            "Effect1": "Deal",
+            "Effect2": "damage 4 times to one enemy and increase damage by",
+            "Effect3": "if HP under 50%",
+            "Min": { "Num1": "56", "Num2": "26", "Gauge": "1440" },
+            "Max": { "Num1": "84", "Num2": "36" },
+            "Full Ascend": { "Num1": "100", "Num2": "40", "Gauge": "1152" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Vigor",
+                "Effect1": "Attack up by",
+                "A1": "8.8",
+                "A4": "16"
+            },
+            "Second": {
+                "Name": "Fleetfoot",
+                "Effect1": "Agility up by",
+                "A1": "8.8", 
+                "A4": "16"
+            }
+        }
+    },
+
+    "A2 - Vengeful Attacker": { 
+        "Weapon": "Big Sword", 
+        "Rarity": "3", 
+        "Min": { "HP": "2247", "ATK": "180", "DEF": "175" },
+        "Max": { "HP": "27481", "ATK": "2218", "DEF": "2158" },
+        "Full Ascend": { "HP": "34979", "ATK": "2823", "DEF": "2745" },
+        "Skill": { 
+            "Name": "Low Horizon Bludgeon",
+            "Effect1": "Deal",
+            "Effect2": "damage 3 times to one enemy and increase Agility by",
+            "Effect3": "for 30 seconds to all allies",
+            "Min": { "Num1": "42", "Num2": "8", "Gauge": "1050" },
+            "Max": { "Num1": "63", "Num2": "13" },
+            "Full Ascend": { "Num1": "75", "Num2": "15", "Gauge": "840" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Aegis",
+                "Effect1": "Defense up by",
+                "A1": "8.8",
+                "A4": "16"
+            },
+            "Second": {
+                "Name": "Vigor",
+                "Effect1": "Attack up by",
+                "A1": "8.8", 
+                "A4": "16"
+            }
+        }
+    },
+
+    "Akeha - Dissenting Assassin": { 
+        "Weapon": "Big Sword", 
+        "Rarity": "3", 
+        "Min": { "HP": "1997", "ATK": "164", "DEF": "216" },
+        "Max": { "HP": "24430", "ATK": "2008", "DEF": "2653" },
+        "Full Ascend": { "HP": "31096", "ATK": "2556", "DEF": "3377" },
+        "Skill": { 
+            "Name": "Blade Dance",
+            "Effect1": "Deal",
+            "Effect2": "damage 3 times to one enemy and increase Defense by",
+            "Effect3": "for 30 seconds to self",
+            "Min": { "Num1": "42", "Num2": "26", "Gauge": "1110" },
+            "Max": { "Num1": "63", "Num2": "36" },
+            "Full Ascend": { "Num1": "75", "Num2": "40", "Gauge": "888" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Aegis",
+                "Effect1": "Defense up by",
+                "A1": "8.8",
+                "A4": "16"
+            },
+            "Second": {
+                "Name": "Vigor",
+                "Effect1": "Attack up by",
+                "A1": "8.8", 
+                "A4": "16"
+            }
+        }
+    },
+
+    "Akeha - Guardian Swordman": { 
+        "Weapon": "Big Sword", 
+        "Rarity": "3", 
+        "Min": { "HP": "2039", "ATK": "158", "DEF": "209" },
+        "Max": { "HP": "24935", "ATK": "1934", "DEF": "25565" },
+        "Full Ascend": { "HP": "31738", "ATK": "2460", "DEF": "3163" },
+        "Skill": { 
+            "Name": "Fang",
+            "Effect1": "Deal",
+            "Effect2": "damage 3 times to one enemy and increase damage by",
+            "Effect3": "if HP above 80%",
+            "Min": { "Num1": "78", "Num2": "26", "Gauge": "1500" },
+            "Max": { "Num1": "117", "Num2": "36" },
+            "Full Ascend": { "Num1": "140", "Num2": "40", "Gauge": "1200" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Bold Vigor",
+                "Effect1": "Increase damage by",
+                "Effect2": "if HP above 70%",
+                "A1": "13.2",
+                "A4": "24"
+            },
+            "Second": {
+                "Name": "Icewater breakthrough",
+                "Effect1": "Update weapon basic stats (HP, Attack, Defense) by",
+                "Effect2": "when equipped with water weapon",
+                "A1": "11", 
+                "A4": "20"
+            }
+        }
+    },
+
+    "Argo - Dissenting Traveler": { 
+        "Weapon": "Spear", 
+        "Rarity": "3", 
+        "Min": { "HP": "1855", "ATK": "146", "DEF": "246" },
+        "Max": { "HP": "22694", "ATK": "1789", "DEF": "3012" },
+        "Full Ascend": { "HP": "28886", "ATK": "2288", "DEF": "3832" },
+        "Skill": { 
+            "Name": "Treefall",
+            "Effect1": "Deal",
+            "Effect2": "damage 4 times to one enemy and reduce Attack by",
+            "Effect3": "for 30 seconds to one enemy",
+            "Min": { "Num1": "35", "Num2": "16", "Gauge": "1200" },
+            "Max": { "Num1": "52", "Num2": "26" },
+            "Full Ascend": { "Num1": "60", "Num2": "30", "Gauge": "960" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Aegis",
+                "Effect1": "Defense up by",
+                "A1": "8.8",
+                "A4": "16"
+            },
+            "Second": {
+                "Name": "Toughness",
+                "Effect1": "HP up by",
+                "A1": "8.8", 
+                "A4": "16"
+            }
+        }
+    },
+
+    "Argo - Guardian Traveler": { 
+        "Weapon": "Spear", 
+        "Rarity": "3", 
+        "Min": { "HP": "2702", "ATK": "173", "DEF": "140" },
+        "Max": { "HP": "33051", "ATK": "2128", "DEF": "1720" },
+        "Full Ascend": { "HP": "42070", "ATK": "2709", "DEF": "2190" },
+        "Skill": { 
+            "Name": "Dispersal",
+            "Effect1": "Deal",
+            "Effect2": "damage 4 times to one enemy and increase damage by",
+            "Effect3": "when target is afflicted by poison",
+            "Min": { "Num1": "56", "Num2": "44", "Gauge": "1440" },
+            "Max": { "Num1": "84", "Num2": "67" },
+            "Full Ascend": { "Num1": "100", "Num2": "80", "Gauge": "1152" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Bold Vigor",
+                "Effect1": "Increase damage by",
+                "Effect2": "if HP above 70%",
+                "A1": "13.2",
+                "A4": "24"
+            },
+            "Second": {
+                "Name": "Aegis",
+                "Effect1": "Defense up by",
+                "A1": "8.8", 
+                "A4": "16"
+            }
+        }
+    },
+
+    "Argo - Summer Traveler": { 
+        "Weapon": "Spear", 
+        "Rarity": "3", 
+        "Min": { "HP": "2759", "ATK": "159", "DEF": "156" },
+        "Max": { "HP": "33751", "ATK": "1948", "DEF": "1823" },
+        "Full Ascend": { "HP": "42961", "ATK": "2478", "DEF": "2448" },
+        "Skill": { 
+            "Name": "Harpoon",
+            "Effect1": "Deal",
+            "Effect2": "damage 3 times to one enemy and 20% chance to inflict blind (Reduce accuracy by 65%) for 3 turns to one enemy",
+            "Min": { "Num1": "61", "Gauge": "1260" },
+            "Max": { "Num1": "92" },
+            "Full Ascend": { "Num1": "110", "Gauge": "1008" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Toughness",
+                "Effect1": "HP up by",
+                "A1": "8.8",
+                "A4": "16"
+            },
+            "Second": {
+                "Name": "Training",
+                "Effect1": "Increase chance normal attack will be 3-chain or more by",
+                "A1": "4.4", 
+                "A4": "8"
+            }
+        }
+    },
+
+    "Dimos - Dissenting Gunman": { 
+        "Weapon": "Gun", 
+        "Rarity": "3", 
+        "Min": { "HP": "2807", "ATK": "154", "DEF": "160" },
+        "Max": { "HP": "34339", "ATK": "1892", "DEF": "1972" },
+        "Full Ascend": { "HP": "43710", "ATK": "2408", "DEF": "2509" },
+        "Skill": { 
+            "Name": "Rapid Fire",
+            "Effect1": "Deal",
+            "Effect2": "damage 4 times to one enemy",
+            "Min": { "Num1": "67", "Gauge": "1350" },
+            "Max": { "Num1": "100" },
+            "Full Ascend": { "Num1": "120", "Gauge": "1080" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Vigor",
+                "Effect1": "Attack up by",
+                "A1": "8.8",
+                "A4": "16"
+            },
+            "Second": {
+                "Name": "Fleetfoot",
+                "Effect1": "Agility up by",
+                "A1": "8.8", 
+                "A4": "16"
+            }
+        }
+    },
+
+    "Dimos - Guardian Gunman": { 
+        "Weapon": "Gun", 
+        "Rarity": "3", 
+        "Min": { "HP": "1864", "ATK": "241", "DEF": "142" },
+        "Max": { "HP": "22808", "ATK": "2957", "DEF": "1750" },
+        "Full Ascend": { "HP": "29033", "ATK": "3765", "DEF": "2226" },
+        "Skill": { 
+            "Name": "Overload",
+            "Effect1": "Deal",
+            "Effect2": "damage 4 times to one enemy",
+            "Min": { "Num1": "72", "Gauge": "1560" },
+            "Max": { "Num1": "109" },
+            "Full Ascend": { "Num1": "130", "Gauge": "1248" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Caged Vigor",
+                "Effect1": "Increase damage by",
+                "Effect2": "if HP under 60%",
+                "A1": "13.2",
+                "A4": "24"
+            },
+            "Second": {
+                "Name": "Aegis",
+                "Effect1": "Defense up by",
+                "A1": "8.8", 
+                "A4": "16"
+            }
+        }
+    },
+
+    "Emil - Puzzling Oddity": { 
+        "Weapon": "Staff", 
+        "Rarity": "3", 
+        "Min": { "HP": "2112", "ATK": "155", "DEF": "216" },
+        "Max": { "HP": "25830", "ATK": "1902", "DEF": "2649" },
+        "Full Ascend": { "HP": "32877", "ATK": "2421", "DEF": "3371" },
+        "Skill": { 
+            "Name": "Emil's Spinny Shot!",
+            "Effect1": "Deal",
+            "Effect2": "damage 3 times to one enemy and increase damage by",
+            "Effect3": "when target is afflicted by poison",
+            "Min": { "Num1": "78", "Num2": "44", "Gauge": "1440" },
+            "Max": { "Num1": "117", "Num2": "67" },
+            "Full Ascend": { "Num1": "140", "Num2": "80", "Gauge": "1152" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Bold Vigor",
+                "Effect1": "Increase damage by",
+                "Effect2": "if HP above 70%",
+                "A1": "13.2",
+                "A4": "24"
+            },
+            "Second": {
+                "Name": "Fleetfoot",
+                "Effect1": "Agility up by",
+                "A1": "8.8", 
+                "A4": "16"
+            }
+        }
+    },
+
+    "F66x - Dissenting Captive": { 
+        "Weapon": "Staff", 
+        "Rarity": "3", 
+        "Min": { "HP": "2780", "ATK": "139", "DEF": "178" },
+        "Max": { "HP": "34003", "ATK": "1703", "DEF": "2187" },
+        "Full Ascend": { "HP": "43282", "ATK": "2168", "DEF": "2783" },
+        "Skill": { 
+            "Name": "Medical Care",
+            "Effect1": "Heal",
+            "Effect2": "HP to all allies",
+            "Min": { "Num1": "16", "Gauge": "1800" },
+            "Max": { "Num1": "26" },
+            "Full Ascend": { "Num1": "30", "Gauge": "1440" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Pursuit",
+                "Effect1": "Increase damage by",
+                "Effect2": "if chains above 3",
+                "A1": "13.2",
+                "A4": "24"
+            },
+            "Second": {
+                "Name": "Aegis",
+                "Effect1": "Defense up by",
+                "A1": "8.8", 
+                "A4": "16"
+            }
+        }
+    },
+
+    "F66x - Guardian Captive": { 
+        "Weapon": "Staff", 
+        "Rarity": "3", 
+        "Min": { "HP": "2013", "ATK": "216", "DEF": "160" },
+        "Max": { "HP": "24629", "ATK": "2651", "DEF": "1976" },
+        "Full Ascend": { "HP": "31350", "ATK": "3374", "DEF": "2515" },
+        "Skill": { 
+            "Name": "Spark Beat",
+            "Effect1": "Deal",
+            "Effect2": "damage 3 times to one enemy and 20% chance to inflict stun for 1 turn to one enemy",
+            "Min": { "Num1": "42", "Gauge": "1260" },
+            "Max": { "Num1": "63" },
+            "Full Ascend": { "Num1": "75", "Gauge": "1008" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Vigor",
+                "Effect1": "Attack up by",
+                "A1": "8.8",
+                "A4": "16"
+            },
+            "Second": {
+                "Name": "Fleetfoot",
+                "Effect1": "Agility up by",
+                "A1": "8.8", 
+                "A4": "16"
+            }
+        }
+    },
+
+    "Fio - Dissenting Girl": { 
+        "Weapon": "Fist", 
+        "Rarity": "3", 
+        "Min": { "HP": "2775", "ATK": "145", "DEF": "177" },
+        "Max": { "HP": "33946", "ATK": "1775", "DEF": "2172" },
+        "Full Ascend": { "HP": "43209", "ATK": "2258", "DEF": "2764" },
+        "Skill": { 
+            "Name": "Leave This to Me!",
+            "Effect1": "Deal",
+            "Effect2": "damage 4 times to one enemy and increase Defense by",
+            "Effect3": "for 30 seconds to all allies",
+            "Min": { "Num1": "35", "Num2": "8", "Gauge": "1110" },
+            "Max": { "Num1": "52", "Num2": "13" },
+            "Full Ascend": { "Num1": "60", "Num2": "15", "Gauge": "888" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Aegis",
+                "Effect1": "Defense up by",
+                "A1": "8.8",
+                "A4": "16"
+            },
+            "Second": {
+                "Name": "Fleetfoot",
+                "Effect1": "Agility up by",
+                "A1": "8.8", 
+                "A4": "16"
+            }
+        }
+    },
+
+    "Gayle - Dissenting Hunter": { 
+        "Weapon": "Sword", 
+        "Rarity": "3", 
+        "Min": { "HP": "2016", "ATK": "212", "DEF": "155" },
+        "Max": { "HP": "24656", "ATK": "2598", "DEF": "1911" },
+        "Full Ascend": { "HP": "31384", "ATK": "3306", "DEF": "2432" },
+        "Skill": { 
+            "Name": "Reel",
+            "Effect1": "Deal",
+            "Effect2": "damage 4 times to one enemy and reduce Defense by",
+            "Effect3": "for 30 seconds to one enemy",
+            "Min": { "Num1": "35", "Num2": "16", "Gauge": "1260" },
+            "Max": { "Num1": "52", "Num2": "26" },
+            "Full Ascend": { "Num1": "60", "Num2": "30", "Gauge": "1008" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Vigor",
+                "Effect1": "Attack up by",
+                "A1": "8.8",
+                "A4": "16"
+            },
+            "Second": {
+                "Name": "Fleetfoot",
+                "Effect1": "Agility up by",
+                "A1": "8.8", 
+                "A4": "16"
+            }
+        }
+    },
+
+    "Gayle - Guardian Hunter": { 
+        "Weapon": "Sword", 
+        "Rarity": "3", 
+        "Min": { "HP": "2688", "ATK": "161", "DEF": "154" },
+        "Max": { "HP": "31882", "ATK": "1986", "DEF": "1885" },
+        "Full Ascend": { "HP": "41856", "ATK": "2527", "DEF": "2399" },
+        "Skill": { 
+            "Name": "Whirlwind Cut",
+            "Effect1": "Deal",
+            "Effect2": "damage 4 times to one enemy and increase damage by",
+            "Effect3": "if HP under 20%",
+            "Min": { "Num1": "56%", "Num2": "35%", "Gauge": "1440" },
+            "Max": { "Num1": "84", "Num2": "52" },
+            "Full Ascend": { "Num1": "100", "Num2": "60", "Gauge": "1152" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Vigor",
+                "Effect1": "Attack up by",
+                "A1": "8.8",
+                "A4": "16"
+            },
+            "Second": {
+                "Name": "Aegis",
+                "Effect1": "Defense up by",
+                "A1": "8.8", 
+                "A4": "16"
+            }
+        }
+    },
+
+    "Griff - Dissenting Captain": { 
+        "Weapon": "Gun", 
+        "Rarity": "3", 
+        "Min": { "HP": "1906", "ATK": "246", "DEF": "146" },
+        "Max": { "HP": "23310", "ATK": "3023", "DEF": "1789" },
+        "Full Ascend": { "HP": "29670", "ATK": "3847", "DEF": "2288" },
+        "Skill": { 
+            "Name": "Extermination Fire",
+            "Effect1": "Deal",
+            "Effect2": "damage 1 time to all enemies and reduce Defense by",
+            "Effect3": "for 30 seconds to all enemies",
+            "Min": { "Num1": "44", "Num2": "11", "Gauge": "1050" },
+            "Max": { "Num1": "67", "Num2": "21" },
+            "Full Ascend": { "Num1": "80", "Num2": "25", "Gauge": "840" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Vigor",
+                "Effect1": "Attack up by",
+                "A1": "8.8",
+                "A4": "16"
+            },
+            "Second": {
+                "Name": "Fleetfoot",
+                "Effect1": "Agility up by",
+                "A1": "8.8", 
+                "A4": "16"
+            }
+        }
+    },
+
+    "Kainé - The Aerie Warrior": { 
+        "Weapon": "Sword", 
+        "Rarity": "3", 
+        "Min": { "HP": "1986", "ATK": "207", "DEF": "153" },
+        "Max": { "HP": "24292", "ATK": "2537", "DEF": "1880" },
+        "Full Ascend": { "HP": "30922", "ATK": "3230", "DEF": "2392" },
+        "Skill": { 
+            "Name": "Dismemberment",
+            "Effect1": "Deal",
+            "Effect2": "damage 4 times (ignore defense) to one enemy",
+            "Min": { "Num1": "42", "Gauge": "1350" },
+            "Max": { "Num1": "63" },
+            "Full Ascend": { "Num1": "75", "Gauge": "1080" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Fatal",
+                "Effect1": "Critical Damage up by",
+                "A1": "8.8",
+                "A4": "16"
+            },
+            "Second": {
+                "Name": "Toughness",
+                "Effect1": "HP up by",
+                "A1": "8.8", 
+                "A4": "16"
+            }
+        }
+    },
+
+    "Lars - Dissenting Soldier": { 
+        "Weapon": "Sword", 
+        "Rarity": "3", 
+        "Min": { "HP": "2347", "ATK": "213", "DEF": "144" },
+        "Max": { "HP": "28712", "ATK": "2617", "DEF": "1766" },
+        "Full Ascend": { "HP": "36534", "ATK": "3331", "DEF": "2248" },
+        "Skill": { 
+            "Name": "Puncture",
+            "Effect1": "Deal",
+            "Effect2": "damage 4 times (damage increases based on combo length) to one enemy",
+            "Min": { "Num1": "36", "Gauge": "1350" },
+            "Max": { "Num1": "54" },
+            "Full Ascend": { "Num1": "65", "Gauge": "1080" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Pursuit",
+                "Effect1": "Increase damage by",
+                "Effect2": "if chains above 3",
+                "A1": "13.2",
+                "A4": "24"
+            },
+            "Second": {
+                "Name": "Toughness",
+                "Effect1": "HP up by",
+                "A1": "8.8", 
+                "A4": "16"
+            }
+        }
+    },
+
+    "Noelle - Dissenting Weapon": { 
+        "Weapon": "Spear", 
+        "Rarity": "3", 
+        "Min": { "HP": "1839", "ATK": "178", "DEF": "216" },
+        "Max": { "HP": "22499", "ATK": "2180", "DEF": "2647" },
+        "Full Ascend": { "HP": "28638", "ATK": "2774", "DEF": "3368" },
+        "Skill": { 
+            "Name": "Thorns of Morbus",
+            "Effect1": "Deal",
+            "Effect2": "damage 4 times to one enemy",
+            "Min": { "Num1": "50", "Gauge": "1260" },
+            "Max": { "Num1": "75" },
+            "Full Ascend": { "Num1": "90", "Gauge": "1008" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Aegis",
+                "Effect1": "Defense up by",
+                "A1": "11",
+                "A4": "20"
+            },
+            "Second": {
+                "Name": "Fleetfoot",
+                "Effect1": "Agility up by",
+                "A1": "8.8", 
+                "A4": "16"
+            }
+        }
+    },
+
+    "Noelle - Protective Weapon": { 
+        "Weapon": "Spear", 
+        "Rarity": "3", 
+        "Min": { "HP": "2123", "ATK": "212", "DEF": "153" },
+        "Max": { "HP": "25971", "ATK": "2594", "DEF": "1882" },
+        "Full Ascend": { "HP": "33057", "ATK": "3300", "DEF": "2395" },
+        "Skill": { 
+            "Name": "The way of Epistura",
+            "Effect1": "Deal",
+            "Effect2": "damage 4 times to one enemy and increase Critical Rate by",
+            "Effect3": "for 30 seconds to all allies",
+            "Min": { "Num1": "35", "Num2": "8", "Gauge": "1140" },
+            "Max": { "Num1": "52", "Num2": "13" },
+            "Full Ascend": { "Num1": "60", "Num2": "15", "Gauge": "912" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Vigor",
+                "Effect1": "Attack up by",
+                "A1": "8.8",
+                "A4": "16"
+            },
+            "Second": {
+                "Name": "Aegis",
+                "Effect1": "Defense up by",
+                "A1": "8.8", 
+                "A4": "16"
+            }
+        }
+    },
+
+    "Rion - Dissenting Exile": { 
+        "Weapon": "Staff", 
+        "Rarity": "3", 
+        "Min": { "HP": "2020", "ATK": "164", "DEF": "206" },
+        "Max": { "HP": "24709", "ATK": "2010", "DEF": "2529" },
+        "Full Ascend": { "HP": "31450", "ATK": "2559", "DEF": "3220" },
+        "Skill": { 
+            "Name": "Dignified Prayer",
+            "Effect1": "Deal",
+            "Effect2": "damage 3 times to one enemy and increase Defense by",
+            "Effect3": "for 30 seconds to all allies",
+            "Min": { "Num1": "42", "Num2": "8", "Gauge": "1110" },
+            "Max": { "Num1": "63", "Num2": "13" },
+            "Full Ascend": { "Num1": "75", "Num2": "15", "Gauge": "888" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Aegis",
+                "Effect1": "Defense up by",
+                "A1": "8.8",
+                "A4": "16"
+            },
+            "Second": {
+                "Name": "Toughness",
+                "Effect1": "HP up by",
+                "A1": "8.8", 
+                "A4": "16"
+            }
+        }
+    },
+
+    "Rion - Guardian Exile": { 
+        "Weapon": "Staff", 
+        "Rarity": "3", 
+        "Min": { "HP": "2343", "ATK": "174", "DEF": "178" },
+        "Max": { "HP": "28658", "ATK": "2141", "DEF": "2183" },
+        "Full Ascend": { "HP": "36479", "ATK": "2724", "DEF": "2777" },
+        "Skill": { 
+            "Name": "Firm Pride",
+            "Effect1": "Deal",
+            "Effect2": "damage 4 times to one enemy and increase damage by",
+            "Effect3": "if critical hit",
+            "Min": { "Num1": "56", "Num2": "26", "Gauge": "1140" },
+            "Max": { "Num1": "84", "Num2": "36" },
+            "Full Ascend": { "Num1": "100", "Num2": "40", "Gauge": "912" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Ambush",
+                "Effect1": "Critical Rate up by",
+                "A1": "8.8",
+                "A4": "116"
+            },
+            "Second": {
+                "Name": "Fleetfoot",
+                "Effect1": "Agility up by",
+                "A1": "8.8", 
+                "A4": "16"
+            }
+        }
+    },
+
+    "The World-Ender - Soulful Lad": { 
+        "Weapon": "Spear", 
+        "Rarity": "3", 
+        "Min": { "HP": "2745", "ATK": "159", "DEF": "160" },
+        "Max": { "HP": "33582", "ATK": "1959", "DEF": "1963" },
+        "Full Ascend": { "HP": "42746", "ATK": "2493", "DEF": "2497" },
+        "Skill": { 
+            "Name": "Swift Blitz",
+            "Effect1": "Deal",
+            "Effect2": "damage 4 times (damage increases based on combo length) to one enemy",
+            "Min": { "Num1": "56", "Gauge": "1350" },
+            "Max": { "Num1": "84" },
+            "Full Ascend": { "Num1": "100", "Gauge": "1080" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Pursuit",
+                "Effect1": "Increase damage by",
+                "Effect2": "if chains above 3",
+                "A1": "13.2",
+                "A4": "24"
+            },
+            "Second": {
+                "Name": "Fleetfoot",
+                "Effect1": "Agility up by",
+                "A1": "8.8", 
+                "A4": "16"
+            }
+        }
+    },
+
+    "Zero - Progenitor Sister": { 
+        "Weapon": "Sword", 
+        "Rarity": "3", 
+        "Min": { "HP": "2253", "ATK": "207", "DEF": "146" },
+        "Max": { "HP": "27565", "ATK": "2533", "DEF": "1795" },
+        "Full Ascend": { "HP": "35087", "ATK": "3224", "DEF": "2285" },
+        "Skill": { 
+            "Name": "Intoner Mode",
+            "Effect1": "Deal",
+            "Effect2": "damage 5 times to one enemy and increase Critical Rate by",
+            "Effect3": "for 30 seconds to all allies",
+            "Min": { "Num1": "31", "Num2": "8", "Gauge": "1140" },
+            "Max": { "Num1": "41", "Num2": "13" },
+            "Full Ascend": { "Num1": "45", "Num2": "15", "Gauge": "912" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Vigor",
+                "Effect1": "Attack up by",
+                "A1": "8.8",
+                "A4": "16"
+            },
+            "Second": {
+                "Name": "Fleetfoot",
+                "Effect1": "Agility up by",
+                "A1": "8.8", 
+                "A4": "16"
+            }
+        }
+    },
+
+    "063y - Stalwart Prisoner": { 
+        "Weapon": "Big Sword", 
+        "Rarity": "2", 
+        "Min": { "HP": "1528", "ATK": "164", "DEF": "120" },
+        "Max": { "HP": "15981", "ATK": "1724", "DEF": "1263" },
+        "Full Ascend": { "HP": "21254", "ATK": "2293", "DEF": "1679" },
+        "Skill": { 
+            "Name": "SET MOVE",
+            "Effect1": "Deal",
+            "Effect2": "damage 3 times to one enemy and increase damage by",
+            "Effect3": "if HP under 50%",
+            "Min": { "Num1": "59", "Num2": "26", "Gauge": "1440" },
+            "Max": { "Num1": "84", "Num2": "36" },
+            "Full Ascend": { "Num1": "100", "Num2": "40", "Gauge": "1152" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Toughness",
+                "Effect1": "HP up by",
+                "A1": "6.6",
+                "A4": "12"
+            },
+            "Second": {
+                "Name": "Vigor",
+                "Effect1": "Attack up by",
+                "A1": "6.6", 
+                "A4": "12"
+            }
+        }
+    }, 
+
+    "Akeha - Twilight Assassin": { 
+        "Weapon": "Big Sword", 
+        "Rarity": "2", 
+        "Min": { "HP": "1349", "ATK": "188", "DEF": "108" },
+        "Max": { "HP": "14138", "ATK": "1976", "DEF": "1141" },
+        "Full Ascend": { "HP": "18805", "ATK": "2626", "DEF": "1516" },
+        "Skill": { 
+            "Name": "Petalsunder",
+            "Effect1": "Deal",
+            "Effect2": "damage 3 times to one enemy and increase damage by",
+            "Effect3": "if critical hit",
+            "Min": { "Num1": "59", "Num2": "26", "Gauge": "1140" },
+            "Max": { "Num1": "84", "Num2": "36" },
+            "Full Ascend": { "Num1": "100", "Num2": "40", "Gauge": "912" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Vigor",
+                "Effect1": "Attack up by",
+                "A1": "6.6",
+                "A4": "12"
+            },
+            "Second": {
+                "Name": "Toughness",
+                "Effect1": "HP up by",
+                "A1": "6.6", 
+                "A4": "12"
+            }
+        }
+    },
+
+    "Argo - Apex Traveler": { 
+        "Weapon": "Spear", 
+        "Rarity": "2", 
+        "Min": { "HP": "1388", "ATK": "106", "DEF": "189" },
+        "Max": { "HP": "14543", "ATK": "1119", "DEF": "1994" },
+        "Full Ascend": { "HP": "19342", "ATK": "1488", "DEF": "2651" },
+        "Skill": { 
+            "Name": "Rockchipper",
+            "Effect1": "Deal",
+            "Effect2": "damage 4 times to one enemy and increase damage by",
+            "Effect3": "if HP above 80%",
+            "Min": { "Num1": "47", "Num2": "26", "Gauge": "1500" },
+            "Max": { "Num1": "67", "Num2": "36" },
+            "Full Ascend": { "Num1": "80", "Num2": "40", "Gauge": "1200" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Toughness",
+                "Effect1": "HP up by",
+                "A1": "6.6",
+                "A4": "12"
+            },
+            "Second": {
+                "Name": "Aegis",
+                "Effect1": "Defense up by",
+                "A1": "6.6", 
+                "A4": "12"
+            }
+        }
+    },
+
+    "Dimos - Departed Gunman": { 
+        "Weapon": "Gun", 
+        "Rarity": "2", 
+        "Min": { "HP": "2113", "ATK": "118", "DEF": "126" },
+        "Max": { "HP": "22139", "ATK": "1246", "DEF": "1327" },
+        "Full Ascend": { "HP": "29445", "ATK": "1656", "DEF": "1763" },
+        "Skill": { 
+            "Name": "Thumbing",
+            "Effect1": "Deal",
+            "Effect2": "damage 4 times to one enemy and increase damage by",
+            "Effect3": "if HP under 50%",
+            "Min": { "Num1": "47", "Num2": "26", "Gauge": "1440" },
+            "Max": { "Num1": "67", "Num2": "36" },
+            "Full Ascend": { "Num1": "80", "Num2": "40", "Gauge": "1152" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Aegis",
+                "Effect1": "Defense up by",
+                "A1": "6.6",
+                "A4": "12"
+            },
+            "Second": {
+                "Name": "Vigor",
+                "Effect1": "Attack up by",
+                "A1": "6.6", 
+                "A4": "12"
+            }
+        }
+    },
+
+    "F66x - Distressed Captive": { 
+        "Weapon": "Staff", 
+        "Rarity": "2", 
+        "Min": { "HP": "2089", "ATK": "107", "DEF": "137" },
+        "Max": { "HP": "21880", "ATK": "1126", "DEF": "1448" },
+        "Full Ascend": { "HP": "29101", "ATK": "1497", "DEF": "1924" },
+        "Skill": { 
+            "Name": "Healing",
+            "Effect1": "Heal",
+            "Effect2": "HP to all allies",
+            "Min": { "Num1": "11", "Gauge": "1800" },
+            "Max": { "Num1": "21" },
+            "Full Ascend": { "Num1": "25", "Gauge": "1440" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Toughness",
+                "Effect1": "HP up by",
+                "A1": "6.6",
+                "A4": "12"
+            },
+            "Second": {
+                "Name": "Aegis",
+                "Effect1": "Defense up by",
+                "A1": "6.6", 
+                "A4": "12"
+            }
+        }
+    },
+
+    "Fio - The Girl of Light": { 
+        "Weapon": "Fist", 
+        "Rarity": "2", 
+        "Min": { "HP": "1802", "ATK": "108", "DEF": "159" },
+        "Max": { "HP": "18875", "ATK": "1142", "DEF": "1670" },
+        "Full Ascend": { "HP": "25103", "ATK": "1518", "DEF": "2219" },
+        "Skill": { 
+            "Name": "Rah, Rah, Rah!",
+            "Effect1": "Deal",
+            "Effect2": "damage 4 times to one enemy and increase damage by",
+            "Effect3": "for 30 seconds if chains above 2",
+            "Min": { "Num1": "31", "Num2": "11", "Gauge": "1200" },
+            "Max": { "Num1": "41", "Num2": "21" },
+            "Full Ascend": { "Num1": "45", "Num2": "25", "Gauge": "960" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Aegis",
+                "Effect1": "Defense up by",
+                "A1": "6.6",
+                "A4": "12"
+            },
+            "Second": {
+                "Name": "Toughness",
+                "Effect1": "HP up by",
+                "A1": "6.6", 
+                "A4": "12"
+            }
+        }
+    },
+
+    "Gayle - Wounded Hunter": { 
+        "Weapon": "Sword", 
+        "Rarity": "2", 
+        "Min": { "HP": "1571", "ATK": "161", "DEF": "120" },
+        "Max": { "HP": "16461", "ATK": "1700", "DEF": "1266" },
+        "Full Ascend": { "HP": "21893", "ATK": "2259", "DEF": "1683" },
+        "Skill": { 
+            "Name": "Cleave",
+            "Effect1": "Deal",
+            "Effect2": "damge 1 time to all enemies",
+            "Min": { "Num1": "41", "Gauge": "1500" },
+            "Max": { "Num1": "59" },
+            "Full Ascend": { "Num1": "70", "Gauge": "1200" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Vigor",
+                "Effect1": "Attack up by",
+                "A1": "6.6",
+                "A4": "12"
+            },
+            "Second": {
+                "Name": "Fleetfoot",
+                "Effect1": "Agility up by",
+                "A1": "6.6", 
+                "A4": "12"
+            }
+        }
+    },
+
+    "Griff - Harmonious Captain": { 
+        "Weapon": "Gun", 
+        "Rarity": "2", 
+        "Min": { "HP": "1579", "ATK": "166", "DEF": "117" },
+        "Max": { "HP": "16535", "ATK": "1750", "DEF": "1238" },
+        "Full Ascend": { "HP": "21992", "ATK": "2327", "DEF": "1645" },
+        "Skill": { 
+            "Name": "Aerial Fire",
+            "Effect1": "Deal",
+            "Effect2": "damage 4 times to one enemy and increase damage by",
+            "Effect3": "if critical hit",
+            "Min": { "Num1": "47", "Num2": "26", "Gauge": "1140" },
+            "Max": { "Num1": "67", "Num2": "36" },
+            "Full Ascend": { "Num1": "80", "Num2": "40", "Gauge": "912" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Fleetfoot",
+                "Effect1": "Agility up by",
+                "A1": "6.6",
+                "A4": "12"
+            },
+            "Second": {
+                "Name": "Vigor",
+                "Effect1": "Attack up by",
+                "A1": "6.6", 
+                "A4": "12"
+            }
+        }
+    },
+
+    "Lars - Spiteful Soldier": { 
+        "Weapon": "Sword", 
+        "Rarity": "2", 
+        "Min": { "HP": "1585", "ATK": "125", "DEF": "162" },
+        "Max": { "HP": "16609", "ATK": "1317", "DEF": "1705" },
+        "Full Ascend": { "HP": "22091", "ATK": "1750", "DEF": "2266" },
+        "Skill": { 
+            "Name": "Cross Slash",
+            "Effect1": "Deal",
+            "Effect2": "damage 4 times to one enemy and increase damage by",
+            "Effect3": "for 30 seconds if chains above 2",
+            "Min": { "Num1": "31", "Num2": "11", "Gauge": "1200" },
+            "Max": { "Num1": "41", "Num2": "21" },
+            "Full Ascend": { "Num1": "45", "Num2": "25", "Gauge": "960" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Vigor",
+                "Effect1": "Attack up by",
+                "A1": "6.6",
+                "A4": "12"
+            },
+            "Second": {
+                "Name": "Fleetfoot",
+                "Effect1": "Agility up by",
+                "A1": "6.6", 
+                "A4": "12"
+            }
+        }
+    },
+
+    "Levania - Dark Monster": { 
+        "Weapon": "Fist", 
+        "Rarity": "2", 
+        "Min": { "HP": "1796", "ATK": "166", "DEF": "103" },
+        "Max": { "HP": "18820", "ATK": "1747", "DEF": "1092" },
+        "Full Ascend": { "HP": "25031", "ATK": "2323", "DEF": "1453" },
+        "Skill": { 
+            "Name": "Pummel",
+            "Effect1": "Deal",
+            "Effect2": "damage 4 times to one enemy and increase damage by",
+            "Effect3": "if HP under 50%",
+            "Min": { "Num1": "47", "Num2": "26", "Gauge": "1440" },
+            "Max": { "Num1": "67", "Num2": "36" },
+            "Full Ascend": { "Num1": "80", "Num2": "40", "Gauge": "1152" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Fleetfoot",
+                "Effect1": "Agility up by",
+                "A1": "6.6",
+                "A4": "12"
+            },
+            "Second": {
+                "Name": "Vigor",
+                "Effect1": "Attack up by",
+                "A1": "6.6", 
+                "A4": "12"
+            }
+        }
+    },
+
+    "Levania - Human Monster": { 
+        "Weapon": "Fist", 
+        "Rarity": "2", 
+        "Min": { "HP": "1465", "ATK": "161", "DEF": "139" },
+        "Max": { "HP": "15354", "ATK": "1694", "DEF": "1460" },
+        "Full Ascend": { "HP": "20420", "ATK": "2251", "DEF": "1941" },
+        "Skill": { 
+            "Name": "Thrash",
+            "Effect1": "Deal",
+            "Effect2": "damage 4 times to one enemy and increase damage by",
+            "Effect3": "if HP under 50%",
+            "Min": { "Num1": "47", "Num2": "26", "Gauge": "1440" },
+            "Max": { "Num1": "67", "Num2": "36" },
+            "Full Ascend": { "Num1": "80", "Num2": "40", "Gauge": "1152" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Vigor",
+                "Effect1": "Attack up by",
+                "A1": "6.6",
+                "A4": "12"
+            },
+            "Second": {
+                "Name": "Fleetfoot",
+                "Effect1": "Agility up by",
+                "A1": "6.6", 
+                "A4": "12"
+            }
+        }
+    },
+
+    "Noelle - Hidden Weapon": { 
+        "Weapon": "Spear", 
+        "Rarity": "2", 
+        "Min": { "HP": "1415", "ATK": "136", "DEF": "163" },
+        "Max": { "HP": "14819", "ATK": "1433", "DEF": "1708" },
+        "Full Ascend": { "HP": "19709", "ATK": "1906", "DEF": "2270" },
+        "Skill": { 
+            "Name": "Claws of Agito",
+            "Effect1": "Deal",
+            "Effect2": "damage 4 times to one enemy and increase damage by",
+            "Effect3": "if HP above 80%",
+            "Min": { "Num1": "47", "Num2": "26", "Gauge": "1500" },
+            "Max": { "Num1": "67", "Num2": "36" },
+            "Full Ascend": { "Num1": "80", "Num2": "40", "Gauge": "1200" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Aegis",
+                "Effect1": "Defense up by",
+                "A1": "6.6",
+                "A4": "12"
+            },
+            "Second": {
+                "Name": "Toughness",
+                "Effect1": "HP up by",
+                "A1": "6.6", 
+                "A4": "12"
+            }
+        }
+    },
+
+    "Rion - Sickly Exile": { 
+        "Weapon": "Staff", 
+        "Rarity": "2", 
+        "Min": { "HP": "1579", "ATK": "118", "DEF": "164" },
+        "Max": { "HP": "16535", "ATK": "1242", "DEF": "1726" },
+        "Full Ascend": { "HP": "21992", "ATK": "1650", "DEF": "2295" },
+        "Skill": { 
+            "Name": "Will of Resistance",
+            "Effect1": "Deal",
+            "Effect2": "damage 3 times to one enemy and increase damage by",
+            "Effect3": "for 30 seconds if chains above 2",
+            "Min": { "Num1": "35", "Num2": "11", "Gauge": "1200" },
+            "Max": { "Num1": "52", "Num2": "21" },
+            "Full Ascend": { "Num1": "60", "Num2": "25", "Gauge": "960" }
+        },
+        "Passive": {
+            "First": {
+                "Name": "Toughness",
+                "Effect1": "HP up by",
+                "A1": "6.6",
+                "A4": "12"
+            },
+            "Second": {
+                "Name": "Aegis",
+                "Effect1": "Defense up by",
+                "A1": "6.6", 
+                "A4": "12"
+            }
+        }
+    }
+}

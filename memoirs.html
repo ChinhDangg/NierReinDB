@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="nav.css">
+    <link rel='stylesheet' href='smallscreen.css'>
+    <link rel="stylesheet" href="memoirs.css">
+    <title>Memoirs</title>
+</head>
+<body onload='getData()'>
+    <nav>
+        <div id='logo_menubutton'>
+          <div id='logo'><a href="index.html"><img src="Pics/mama-logo.png"></a></div>
+          <div id='menubutton'><img onclick='displayNavContent()' src='Pics/menuButton.png'></div>
+        </div>
+        <div id='contentLink_container'>
+          <a class='contentlink' href="characters.html">Characters</a>
+          <a class='contentlink' href="weapons.html">Weapons</a>
+          <a class='contentlink' href="memoirs.html">Memoirs</a>
+          <a class='contentlink' href="companions.html">Companions</a>
+        </div>
+      </nav>
+
+    <section id='memoirs_section'>
+        <div id='findChars'>
+            <input id='findBar' name='findBar' onkeyup='searchMemoirs()' type='text' placeholder="Type in set name">
+            <select id='memoirChoice' name='memoirChoice'>
+                <option value='All'>All</option>
+            </select>
+        </div>
+    </section>
+
+    <div id='layout' style='display:none'>
+        <div class='setinfo'>
+            <div class='eachContent'>
+                <h3 class='setName'></h3>
+                <div class='allset'></div>
+            </div>
+            <div class='setbonus_container'>
+                <div class='bonus'>
+                    <div class='smalltitle'>Small</div>
+                    <div class='smallbonus'></div>
+                </div>
+                <div class='bonus'>
+                    <div class='bigtitle'>Big</div>
+                    <div class='bigbonus'></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Put in all 'allset' class -->
+    <div id='layout2' style='display:none'>
+        <div class='setof3'>
+            <div class='memoirs_info'>
+                <img class='memoirPic'>
+                <div class='memoirName'></div>
+            </div>
+            <div class='memoirs_info'>
+                <img class='memoirPic'>
+                <div class='memoirName'></div>
+            </div>
+            <div class='memoirs_info'>
+                <img class='memoirPic'>
+                <div class='memoirName'></div>
+            </div>
+        </div>
+    </div>
+
+    <div id='layout3' style='display:none'>
+        <div class='setof3'>
+            <div class='memoirs_info'>
+                <img class='memoirPic2'>
+                <div class='memoirName2'></div>
+            </div>
+            <div class='memoirs_info'>
+                <img class='memoirPic2'>
+                <div class='memoirName2'></div>
+            </div>
+            <div class='memoirs_info'>
+                <img class='memoirPic2'>
+                <div class='memoirName2'></div>
+            </div>
+        </div>
+    </div>
+
+    <script src='memoirs.js'></script>
+    <script src='smallscreen.js'></script>
+</body>    
+</html>

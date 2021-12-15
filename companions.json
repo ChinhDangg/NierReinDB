@@ -1,0 +1,529 @@
+{
+    "Andre": {
+        "Type": "Bear",
+        "Element": "dark",
+        "Stats": {
+            "Min": { "HP": "354", "ATK": "34", "DEF": "27" },
+            "Max": { "HP": "10519", "ATK": "1041", "DEF": "818" }
+        },
+        "Skill": {
+            "Name": "Ursa Energy Darkness",
+            "Effect": "and 50% chance to inflict blind (Reduce accuracy by 65%) for 2 turns to one enemy."
+        },
+        "Ability": { "Name": "Void Support" }
+    },
+    "Judith": {
+        "Type": "Bear",
+        "Element": "light",
+        "Stats": {
+            "Min": { "HP": "353", "ATK": "34", "DEF": "27" },
+            "Max": { "HP": "10471", "ATK": "1038", "DEF": "803" }
+        },
+        "Skill": {
+            "Name": "Ursa Energy Render",
+            "Effect": "and reduce Defense by",
+            "Min": "11",
+            "Detail": "for 60 seconds to one enemy."
+        },
+        "Ability": { "Name": "Luminous Support" }
+    },
+    "Indy": {
+        "Type": "Bear",
+        "Element": "wind",
+        "Stats": {
+            "Min": { "HP": "352", "ATK": "34", "DEF": "25" },
+            "Max": { "HP": "10458", "ATK": "1052", "DEF": "787" }
+        },
+        "Skill": {
+            "Name": "Ursa Energy Render",
+            "Effect": "and reduce Defense by",
+            "Min": "11",
+            "Detail": "for 60 secondes to one enemy."
+        },
+        "Ability": {
+            "Name": "Whirlwind Support"
+        }
+    },
+    "Patch": {
+        "Type": "Bear",
+        "Element": "water",
+        "Stats": {
+            "Min": { "HP": "364", "ATK": "36", "DEF": "27" },
+            "Max": { "HP": "10803", "ATK": "1092", "DEF": "819" }
+        },
+        "Skill": {
+            "Name": "Ursa Energy Ripper",
+            "Effect": "and reduce Attack by",
+            "Min": "11",
+            "Detail": "for 60 seconds to one enemy"
+        },
+        "Ability": {
+            "Name": "Icewater Support"
+        }
+    },
+    "Precious": {
+        "Type": "Bear",
+        "Element": "fire",
+        "Stats": {
+            "Min": { "HP": "358", "ATK": "36", "DEF": "27" },
+            "Max": { "HP": "10649", "ATK": "1088", "DEF": "818" }
+        },
+        "Skill": {
+            "Name": "Bear Energy Standard",
+            "Effect": "(ignore defense) to one enemy"
+        },
+        "Ability": {
+            "Name": "Blaze Support"
+        }
+    },
+    "Sandra": {
+        "Type": "Bear",
+        "Element": "light",
+        "Stats": {
+            "Min": { "HP": "371", "ATK": "34", "DEF": "27" },
+            "Max": { "HP": "10993", "ATK": "1041", "DEF": "811" }
+        },
+        "Skill": {
+            "Name": "Ursa Energy Mending",
+            "Effect": "and heal",
+            "Min": "8",
+            "Detail": "HP to all allies."
+        },
+        "Ability": {
+            "Name": "Luminous Support"
+        }
+    },
+    "Botan": {
+        "Type": "Doll",
+        "Element": "water",
+        "Stats": {
+            "Min": { "HP": "361", "ATK": "26", "DEF": "36" },
+            "Max": { "HP": "10719", "ATK": "796", "DEF": "1074" }
+        },
+        "Skill": {
+            "Name": "Familiar Ward",
+            "Effect": "and increase Defense by",
+            "Min": "8",
+            "Detail": "for 60 seconds to all allies"
+        },
+        "Ability": {
+            "Name": "Icewater Shutdown"
+        }
+    },
+    "Elena": {
+        "Type": "Doll",
+        "Element": "light",
+        "Stats": {
+            "Min": { "HP": "367", "ATK": "27", "DEF": "34" },
+            "Max": { "HP": "10910", "ATK": "823", "DEF": "1054" }
+        },
+        "Skill": {
+            "Name": "Familiar Mending",
+            "Effect": "and heal",
+            "Min": "8",
+            "Detail": "HP to allies"
+        },
+        "Ability": {
+            "Name": "Luminous Shutdown"
+        }
+    },
+    "Satsuki": {
+        "Type": "Doll",
+        "Element": "fire",
+        "Stats": {
+            "Min": { "HP": "360", "ATK": "27", "DEF": "36" },
+            "Max": { "HP": "10694", "ATK": "818", "DEF": "1071" }
+        },
+        "Skill": {
+            "Name": "Familiar Valiance",
+            "Effect": "and increase Attack by",
+            "Min": "8",
+            "Detail": "for 60 seconds to all allies"
+        },
+        "Ability": {
+            "Name": "Blaze Shutdown"
+        }
+    },
+    "Sayuri": {
+        "Type": "Doll",
+        "Element": "dark",
+        "Stats": {
+            "Min": { "HP": "357", "ATK": "27", "DEF": "35" },
+            "Max": { "HP": "10578", "ATK": "806", "DEF": "1067" }
+        },
+        "Skill": {
+            "Name": "Familiar Darkness",
+            "Effect": "and 50% chance to inflict blind (Reduce accuracy by 65%) for 2 turns to one enemy"
+        },
+        "Ability": {
+            "Name": "Void shutdown"
+        }
+    },
+    "Sumire": {
+        "Type": "Doll",
+        "Element": "wind",
+        "Stats": {
+            "Min": { "HP": "366", "ATK": "25", "DEF": "34" },
+            "Max": { "HP": "10882", "ATK": "787", "DEF": "1057" }
+        },
+        "Skill": {
+            "Name": "Familiar soldier",
+            "Effect": "and increase Agility by",
+            "Min": "8",
+            "Detail": "for 60 seconds to all allies"
+        },
+        "Ability": {
+            "Name": "Whirlwind Shutdown"
+        }
+    },
+    "Amethyst": {
+        "Type": "Dragon",
+        "Element": "dark",
+        "Stats": {
+            "Min": { "HP": "323", "ATK": "41", "DEF": "24" },
+            "Max": { "HP": "9615", "ATK": "1217", "DEF": "718" }
+        },
+        "Skill": {
+            "Name": "Dracoshot Standard",
+            "Effect": "1 time to one enemy."
+        },
+        "Ability": {
+            "Name": "Void Support"
+        }
+    },
+    "Apatite": {
+        "Type": "Dragon",
+        "Element": "water",
+        "Stats": {
+            "Min": { "HP": "310", "ATK": "41", "DEF": "23" },
+            "Max": { "HP": "92123", "ATK": "1221", "DEF": "691" }
+        },
+        "Skill": {
+            "Name": "Dracoshot String",
+            "Effect": "and 100% chance to inflict poison (Reduce HP by 10% per hit) for 5 turns to one enemy"
+        },
+        "Ability": {
+            "Name": "Icewater Support"
+        }
+    },
+    "Garnet": {
+        "Type": "Dragon",
+        "Element": "fire",
+        "Stats": {
+            "Min": { "HP": "311", "ATK": "42", "DEF": "24" },
+            "Max": { "HP": "9227", "ATK": "1258", "DEF": "726" }
+        },
+        "Skill": {
+            "Name": "Dracoshot Burn",
+            "Effect": "and 100% chance to inflict burn (Reduce HP by 20% per hit) for 3 turns to one enemy."
+        },
+        "Ability": {
+            "Name": "Blaze Support"
+        }
+    },
+    "Mikhail": {
+        "Type": "Dragon",
+        "Element": "fire",
+        "Stats": {
+            "Min": { "HP": "316", "ATK": "41", "DEF": "23" },
+            "Max": { "HP": "9379", "ATK": "1231", "DEF": "696" }
+        },
+        "Skill": {
+            "Name": "Flame Breath Valiance",
+            "Effect": "and increase Attack by",
+            "Min": "3",
+            "Detail": "for 60 seconds to all allies"
+        },
+        "Ability": {
+            "Name": "Blaze Support"
+        }
+    },
+    "Peridot": {
+        "Type": "Dragon",
+        "Element": "wind",
+        "Stats": {
+            "Min": { "HP": "327", "ATK": "41", "DEF": "23" },
+            "Max": { "HP": "9735", "ATK": "1248", "DEF": "687" }
+        },
+        "Skill": {
+            "Name": "Dracoshot Standard",
+            "Effect": "(damage increase based on combo length)"
+        },
+        "Ability": {
+            "Name": "Whirlwind Support"
+        }
+    },
+    "Selenite": {
+        "Type": "Dragon",
+        "Element": "light",
+        "Stats": {
+            "Min": { "HP": "313", "ATK": "42", "DEF": "23" },
+            "Max": { "HP": "9309", "ATK": "1254", "DEF": "703" }
+        },
+        "Skill": {
+            "Name": "Dracoshot Mending",
+            "Effect": "and heal",
+            "Min": "3",
+            "Detail": "HP to all allies"
+        },
+        "Ability": {
+            "Name": "Luminous Support"
+        }
+    },
+    "Domestic Pod": {
+        "Type": "Mech",
+        "Element": "water",
+        "Stats": {
+            "Min": { "HP": "406", "ATK": "29", "DEF": "29" },
+            "Max": { "HP": "12049", "ATK": "902", "DEF": "901" }
+        },
+        "Skill": {
+            "Name": "Laser Ripper",
+            "Effect": "and reduce Attack by",
+            "Min": "11",
+            "Detail": "for 60 seconds to one enemy"
+        },
+        "Ability": {
+            "Name": "Icewater Support"
+        }
+    },
+    "Health Pod": {
+        "Type": "Mech",
+        "Element": "fire",
+        "Stats": {
+            "Min": { "HP": "398", "ATK": "29", "DEF": "29" },
+            "Max": { "HP": "11821", "ATK": "882", "DEF": "885" }
+        },
+        "Skill": {
+            "Name": "Laser burn",
+            "Effect": "and 100% chance to inflict burn (Reduce HP by 20% per hit) for 3 turns to one enemy"
+        },
+        "Ability": {
+            "Name": "Blaze Support"
+        }
+    },
+    "Mock-Up Pod": {
+        "Type": "Mech",
+        "Element": "light",
+        "Stats": {
+            "Min": { "HP": "403", "ATK": "29", "DEF": "30" },
+            "Max": { "HP": "11942", "ATK": "905", "DEF": "913" }
+        },
+        "Skill": {
+            "Name": "Laser Vitality",
+            "Effect": "and recover 10% HP for 3 turns to all allies"
+        },
+        "Ability": {
+            "Name": "Luminous Support"
+        }
+    },
+	"Prototype Pod": {
+		"Type": "Mech",
+		"Element": "dark",
+		"Stats": {
+			"Min": { "HP": "395", "ATK": "29", "DEF": "28" },
+			"Max": { "HP": "11739", "ATK": "886", "DEF": "864" }
+		},
+		"Skill": {
+			"Name": "Laser Standard",
+			"Effect": "1 time to one enemy"
+		},
+		"Ability": {
+			"Name": "Void Shutdown"
+		}
+	},
+	"Support Pod": {
+		"Type": "Mech",
+		"Element": "wind",
+		"Stats": {
+			"Min": { "HP": "412", "ATK": "29", "DEF": "28" },
+			"Max": { "HP": "12226", "ATK": "880", "DEF": "864" }
+		},
+		"Skill": {
+			"Name": "Laser Standard",
+			"Effect": "(damage increase based on combo length) to one enemy."
+		},
+		"Ability": {
+			"Name": "Whirlwind Shutdown"
+		}
+	},
+	"Metos": {
+		"Type": "Spirit",
+		"Element": "dark",
+		"Stats": {
+			"Min": { "HP": "310", "ATK": "23", "DEF": "42" },
+			"Max": { "HP": "9213", "ATK": "709", "DEF": "1259" }
+		},
+		"Skill": {
+			"Name": "Spirit Valiance",
+			"Effect": "and increase Attack by",
+			"Min": "3",
+			"Detail": "for 60 seconds to all allies"
+		},
+		"Ability": {
+			"Name": "Void Shutdown"
+		}
+	},
+	"Reis": {
+		"Type": "Spirit",
+		"Element": "water",
+		"Stats": {
+			"Min": { "HP": "332", "ATK": "23", "DEF": "41" },
+			"Max": { "HP": "9865", "ATK": "706", "DEF": "1235" }
+		},
+		"Skill": {
+			"Name": "Spirit Sting",
+			"Effect": "and 100% chance to inflict poison (Reduce HP by 10% per hit) for 5 turns to one enemy"
+		},
+		"Ability": {
+			"Name": "Icewater Shutdown"
+		}
+	},
+	"Salus": {
+		"Type": "Spirit",
+		"Element": "light",
+		"Stats": {
+			"Min": { "HP": "311", "ATK": "23", "DEF": "41" },
+			"Max": { "HP": "9227", "ATK": "696", "DEF": "1229" }
+		},
+		"Skill": {
+			"Name": "Spirit Mending",
+			"Effect": "and heal",
+			"Min": "3",
+			"Detail": "HP to all allies"
+		},
+		"Ability": {
+			"Name": "Luminous Shutdown"
+		}
+	},
+	"Space": {
+		"Type": "Spirit",
+		"Element": "fire",
+		"Stats": {
+			"Min": { "HP": "320", "ATK": "24", "DEF": "42" },
+			"Max": { "HP": "9498", "ATK": "735", "DEF": "1265" }
+		},
+		"Skill": {
+			"Name": "Spirit Burn",
+			"Effect": "and 100% chance to inflict burn (Reduce HP by 20% per hit) for 3 turns to one enemy"
+		},
+		"Ability": {
+			"Name": "Blaze Shutdown"
+		}
+	},
+	"Wyss": {
+		"Type": "Spirit",
+		"Element": "wind",
+		"Stats": {
+			"Min": { "HP": "323", "ATK": "23", "DEF": "42" },
+			"Max": { "HP": "9594", "ATK": "704", "DEF": "1255" }
+		},
+		"Skill": {
+			"Name": "Spirit Soldier",
+			"Effect": "and increase Agility by",
+			"Min": "3",
+			"Detail": "for 60 seconds to all allies"
+		},
+		"Ability": {
+			"Name": "Whirlwind Shutdown"
+		}
+	},
+	"Belief & Heart": {
+		"Type": "Tome",
+		"Element": "water",
+		"Stats": {
+			"Min": { "HP": "409", "ATK": "29", "DEF": "28" },
+			"Max": { "HP": "12165", "ATK": "900", "DEF": "863" }
+		},
+		"Skill": {
+			"Name": "Wisdomtide Ward",
+			"Effect": "and increase Defense by",
+			"Min": "16",
+			"Detail": "for 60 seconds to all allies"
+		},
+		"Ability": {
+			"Name": "Icewater Shutdown"
+		}
+	},
+	"Blood & Sacrifice": {
+		"Type": "Tome",
+		"Element": "light",
+		"Stats": {
+			"Min": { "HP": "409", "ATK": "29", "DEF": "28" },
+			"Max": { "HP": "12144", "ATK": "880", "DEF": "858" }
+		},
+		"Skill": {
+			"Name": "Wisdomtide Vitality",
+			"Effect": "and recover 10% HP for 3 turns to all allies"
+		},
+		"Ability": {
+			"Name": "Luminous Shutdown"
+		}
+	},
+	"Cause & Malice": {
+		"Type": "Tome",
+		"Element": "wind",
+		"Stats": {
+			"Min": { "HP": "412", "ATK": "28", "DEF": "28" },
+			"Max": { "HP": "12237", "ATK": "864", "DEF": "864" }
+		},
+		"Skill": {
+			"Name": "Wisdomtide Soldier",
+			"Effect": "and increase Agility by",
+			"Min": "16",
+			"Detail": "for 60 seconds to all allies"
+		},
+		"Ability": {
+			"Name": "Whirlwind Support"
+		}
+	},
+	"Grimoire Weiss": {
+		"Type": "Tome",
+		"Element": "dark",
+		"Stats": {
+			"Min": { "HP": "407", "ATK": "29", "DEF": "29" },
+			"Max": { "HP": "12059", "ATK": "891", "DEF": "875" }
+		},
+		"Skill": {
+			"Name": "Cruel Bullet Valiance",
+			"Effect": "and increase Attack by",
+			"Min": "16",
+			"Detail": "for 60 seconds to all allies"
+		},
+		"Ability": {
+			"Name": "Void Shutdown"
+		}
+	},
+	"Heaven & Earth": {
+		"Type": "Tome",
+		"Element": "fire",
+		"Stats": {
+			"Min": { "HP": "399", "ATK": "30", "DEF": "29" },
+			"Max": { "HP": "11858", "ATK": "910", "DEF": "901" }
+		},
+		"Skill": {
+			"Name": "Wisdomtide Assault",
+			"Effect": "and increase Critical Rate by",
+			"Min": "16",
+			"Detail": "for 60 seconds to all allies"
+		},
+		"Ability": {
+			"Name": "Blaze Support"
+		}
+	},
+	"Star & Song": {
+		"Type": "Tome",
+		"Element": "dark",
+		"Stats": {
+			"Min": { "HP": "400", "ATK": "30", "DEF": "29" },
+			"Max": { "HP": "11893", "ATK": "910", "DEF": "900" }
+		},
+		"Skill": {
+			"Name": "Wisdomtide Valiance",
+			"Effect": "and increase Attack by",
+			"Min": "16",
+			"Detail": "for 60 seconds to all allies"
+		},
+		"Ability": { "Name": "Void Support" }
+	}
+}

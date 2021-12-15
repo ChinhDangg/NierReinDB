@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='nav.css'>
+    <link rel='stylesheet' href='smallscreen.css'>
+    <link rel='stylesheet' href='charInfo.css'>
+    <title>Character Informations</title>
+</head>
+<body onload='getData()'>
+    <nav>
+        <div id='logo_menubutton'>
+          <div id='logo'><a href="index.html"><img src="Pics/mama-logo.png"></a></div>
+          <div id='menubutton'><img onclick='displayNavContent()' src='Pics/menuButton.png'></div>
+        </div>
+        <div id='contentLink_container'>
+          <a class='contentlink' href="characters.html">Characters</a>
+          <a class='contentlink' href="weapons.html">Weapons</a>
+          <a class='contentlink' href="memoirs.html">Memoirs</a>
+          <a class='contentlink' href="companions.html">Companions</a>
+        </div>
+      </nav>
+
+    <section id='infoSection'>
+        <div id='infoContainer'>
+            <img id='infoBg' src='Pics/charInfoBg.jpg'>
+            <div id='charPic_container'>
+                <img id='charPic'>
+                <div id='charRardiv'><img id='charRarity'></div>
+            </div>
+            <div id='charInfo'>
+                <div id='title_container'>
+                    <h1 id='charname'></h1>
+                    <div id='wepChoice_container'>
+                        <img id='wepChoiceImg'>
+                        <div id='wepChoice'>Big</div>     
+                    </div>
+                </div>
+                <div id='skill_info'>
+                    <div class='levelBlock_name'>
+                        <div>Skill 1</div>
+                        <div class='level'>
+                            <div class='level_block_ski1 level_block' name='main' onclick='addNewInfoBlock(this, "level_block_ski1")' style='background-color: rgb(102, 102, 102);'>Min</div>
+                            <div class='level_block_ski1 level_block' name='main' onclick='addNewInfoBlock(this, "level_block_ski1")'>No Ascend</div>
+                            <div class='level_block_ski1 level_block' name='main' onclick='addNewInfoBlock(this, "level_block_ski1")'>Max</div>
+                        </div>
+                        <div class='name'>
+                            <div class='skillName'></div>
+                            <img class='skillPic'> 
+                        </div>
+                    </div>
+                    <div class='details'>
+                        <div class='effect'></div>
+                        <div class='gauge_info'>
+                            <div class='gauge_title'>Cooldown</div>
+                            <div class='gauge'></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id='skill_info2'>
+                    <div class='levelBlock_name'>
+                        <div>Skill 2</div>
+                        <div class='level'>
+                            <div class='level_block_ski2 level_block' name='main' onclick='addNewInfoBlock(this, "level_block_ski2")' style='background-color: rgb(102, 102, 102);'>Min</div>
+                            <div class='level_block_ski2 level_block' name='main' onclick='addNewInfoBlock(this, "level_block_ski2")'>No Ascend</div>
+                            <div class='level_block_ski2 level_block' name='main' onclick='addNewInfoBlock(this, "level_block_ski2")'>Max</div>
+                        </div>
+                        <div class='name'>
+                            <div class='skillName'></div>
+                            <img class='skillPic'> 
+                        </div>
+                    </div>
+                    <div class='details'>
+                        <div class='effect'></div>
+                        <div class='gauge_info'>
+                            <div class='gauge_title'>Cooldown</div>
+                            <div class='gauge'></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id='ability_info'>
+                    <div class='levelBlock_name'>
+                        <div>Ability 1</div>
+                        <div class='level'>
+                            <div class='level_block_ski3 level_block' name='main' onclick='addNewInfoBlock(this, "level_block_ski3")' style='background-color: rgb(102, 102, 102);'>Min</div>
+                            <div class='level_block_ski3 level_block' name='main' onclick='addNewInfoBlock(this, "level_block_ski3")'>No Ascend</div>
+                            <div class='level_block_ski3 level_block' name='main' onclick='addNewInfoBlock(this, "level_block_ski3")'>Max</div>
+                        </div>
+                        <div class='name'>
+                            <div class='skillName'></div>
+                            <img class='skillPic'> 
+                        </div>
+                    </div>
+                    <div class='details'>
+                        <div class='effect'></div>
+                    </div>
+                </div>
+
+                <div id='ability_info2'>
+                    <div class='levelBlock_name'>
+                        <div>Ability 2</div>
+                        <div class='level'>
+                            <div class='level_block_ski4 level_block' name='main' onclick='addNewInfoBlock(this, "level_block_ski4")' style='background-color: rgb(102, 102, 102);'>Min</div>
+                            <div class='level_block_ski4 level_block' name='main' onclick='addNewInfoBlock(this, "level_block_ski4")'>No Ascend</div>
+                            <div class='level_block_ski4 level_block' name='main' onclick='addNewInfoBlock(this, "level_block_ski4")'>Max</div>
+                        </div>
+                        <div class='name'>
+                            <div class='skillName'></div>
+                            <img class='skillPic'> 
+                        </div>
+                    </div>
+                    <div class='details'>
+                        <div class='effect'></div>
+                    </div>
+                </div>
+
+                <div id='stat_info'>
+                    <div class='levelBlock_name'>
+                        <div>Stats</div>
+                        <div class='level'>
+                            <div class='level_block_abi level_block' name='stat' onclick='addNewInfoBlock(this, "level_block_abi")' style='background-color: rgb(102, 102, 102);'>Min</div>
+                            <div class='level_block_abi level_block' name='stat' onclick='addNewInfoBlock(this, "level_block_abi")'>No Ascend</div>
+                            <div class='level_block_abi level_block' name='stat' onclick='addNewInfoBlock(this, "level_block_abi")'>Full Ascend</div>
+                            <div class='level_block_abi level_block' name='stat' onclick='addNewInfoBlock(this, "level_block_abi")'>Evolve Only</div>
+                            <div class='level_block_abi level_block' name='stat' onclick='addNewInfoBlock(this, "level_block_abi")'>Max</div>
+                        </div>
+                        <div class='name'>
+                            <div>Stats</div>
+                        </div>
+                    </div>
+                    <div class='details stat_details'>
+                        <div class='stat'>
+                            <div class='statname'>HP</div>
+                            <div class='statnumber'></div>
+                        </div>
+                        <div class='stat'>
+                            <div class='statname'>Attack</div>
+                            <div class='statnumber'></div>
+                        </div>
+                        <div class='stat'>
+                            <div class='statname'>Defense</div>
+                            <div class='statnumber'></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <script src='weaponInfo.js'></script>
+    <script src='smallscreen.js'></script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(54, 54, 54);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#charSection {
+    margin: auto;
+    padding-top: 20px;
+    max-width: 1024px;
+}
+#findBar, #weaponChoice, #weaponChoice_Type, #weaponChoice_Element {
+    border-radius: 2px;
+    height: 35px;
+}
+#findBar { width: 175px; }
+#mainContent {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 10px;
+    justify-content: center;
+}
+.outer {
+    cursor: pointer;
+    margin: 5px;
+    width: 100px;
+    background-color: rgb(44, 39, 38);
+    border: black 2px solid;
+    overflow: hidden;
+    border-radius: 2px;
+}
+
+.charPic {
+    position: relative;
+}
+
+#mainContent img {
+    position: absolute;
+    width: 100%;
+}
+
+.charName {
+    margin-top: 105px;
+    position: relative;
+    text-align: center;
+    width: 100px;
+    white-space: nowrap;
+    border-bottom-left-radius: 1px;
+    border-bottom-right-radius: 1px;
+}
+.companionName { background-color: rgb(50,50,50); }
+#layout {
+    display: none;
+}
+
+h4 {
+    margin: 0;
+    font-weight: normal;
+    padding-left: 1px;
+    font-size: 13px;
+    color: white;
+}

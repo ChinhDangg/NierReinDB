@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="nav.css">
+    <link rel='stylesheet' href='smallscreen.css'>
+    <link rel="stylesheet" href="characters.css">
+    <title>Characters</title>
+</head>
+<body onload='getData()'>
+    <nav>
+        <div id='logo_menubutton'>
+          <div id='logo'><a href="index.html"><img src="Pics/mama-logo.png"></a></div>
+          <div id='menubutton'><img onclick='displayNavContent()' src='Pics/menuButton.png'></div>
+        </div>
+        <div id='contentLink_container'>
+          <a class='contentlink' href="characters.html">Characters</a>
+          <a class='contentlink' href="weapons.html">Weapons</a>
+          <a class='contentlink' href="memoirs.html">Memoirs</a>
+          <a class='contentlink' href="companions.html">Companions</a>
+        </div>
+      </nav>
+
+    <section id="charSection">
+        <div id='findChars'>
+            <input id='findBar' name='findBar' onkeyup='searchCharacter()' type='text' placeholder="Type in character name">
+            <select id='weaponChoice' name='weaponChoice'>
+                <option value='All'>All</option>
+                <option value='Big Sword'>Big Sword</option>
+                <option value='Sword'>Sword</option>
+                <option value='Gun'>Gun</option>
+                <option value='Spear'>Spear</option>
+                <option value='Fist'>Fist</option>
+                <option value='Staff'>Staff</option>
+            </select>
+        </div>
+
+        <div id= "mainContent">
+        </div>
+    </section>
+
+    <div id='layout'>
+        <div class='outer'>
+            <div class='charPic'>
+                <img class='charBg'>
+                <img class='char'>
+                <img class='charFrame'>
+            </div>
+            <div class='charName'>
+                <h4 class='nameTitle'></h4>
+            </div>
+        </div>
+    </div>
+
+    <script src='characters.js'></script>
+    <script src='smallscreen.js'></script>
+</body>
+</html>

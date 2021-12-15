@@ -1,0 +1,236 @@
+body {
+    background-color: rgb(54, 54, 54);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#infoSection {
+    margin: auto;
+    padding-top: 20px;
+    max-width: 1000px;
+}
+
+#infoContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    overflow: hidden;
+    position: relative;
+    border-top: solid 2px black;
+}
+
+#infoBg {
+    height: 100%;
+    max-height: 700px;
+    position: absolute;
+}
+#charPic_container{
+    width: 55%;
+    max-height: 700px;
+    position: relative;
+    padding-top: 20px;
+    text-align: center;
+}
+#charPic {
+    height: 94%;
+}
+#charRardiv {
+    position: absolute;
+    background-color: black;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+#charInfo {
+    width: 45%;
+    max-height: 700px;
+    position: relative;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+#charInfo > div {
+    margin-bottom: 20px;
+}
+#title_container {
+    display: flex;
+    align-items: center;
+}
+#title_container h1 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#wepChoice_container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    align-items: center;
+}
+#wepChoiceImg {
+    width: 52px;
+}
+#wepChoice {
+    text-align: center;
+}
+.levelBlock_name > div:first-child {
+    text-align: center;
+}
+.levelBlock_name {
+    background-color: rgba(47, 47, 47, 0.7);
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+.name_icon_container > div{
+    flex: 50%;
+}
+.level {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(68, 68, 68);
+    font-size: 1rem;
+}
+.level_block {
+    margin: 2px;
+    background-color: rgb(50, 50, 50);
+    padding: 5px;
+    cursor: pointer;
+}
+.level_block:hover {
+    background-color: rgb(102, 102, 102) !important;
+}
+.name {
+    display: flex;
+    background-color: rgb(79, 79, 79);
+    padding: 20px 11px;
+    font-size: 20px;
+    align-items: center;
+}
+.name > div {
+    margin-right: 10px;
+}
+#skillPic {
+    width: 46px;
+}
+.details {
+    background-color: rgb(79, 79, 79);
+    padding: 10px;
+    box-sizing: border-box;
+}
+.effect {
+    background-color: rgb(68, 68, 68);
+    padding: 5px;
+}
+.gauge_info {
+    display: inline-block;
+    background-color:rgb(102, 102, 102);
+    padding: 5px;
+}
+.gauge_title {
+    background-color: black;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+.level_slider{
+    -webkit-appearance: none;
+    width: 50%;
+    height: 25px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    margin: 10px;
+    margin-right: 0;
+}
+.level_slider:hover {
+    opacity: 1;
+}
+.level_slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: black;
+    cursor: pointer;
+}
+.level_slider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: black;
+    cursor: pointer;
+  }
+.levelRangeLabel {
+    background-color: #2f2f2f;
+    margin: 5px;
+    padding: 0 20px;
+    padding-top: 7px;
+    font-size: 20px;
+}
+
+.stat_details {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.stat {
+    display: flex;
+    width: 50%;
+    margin-bottom: 3px;
+}
+.statname, .statnumber {
+    padding: 5px 10px;
+    text-align: center;
+}
+.statname {
+    background-color:rgb(47, 47, 47);
+    width: 50%;
+}
+.statnumber {
+    background-color: rgb(68, 68, 68);
+    width: 25%;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+/* ::-webkit-scrollbar-track {
+} */
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+@media screen and (max-width: 768px) { 
+    #infoContainer { flex-direction: column; }
+    #infoBg { max-height: 500px; }
+    #charPic_container { 
+        width: 100%; 
+        max-height: 500px;
+    }
+    #charPic {
+        height: 100%;
+        max-height: 500px;
+    } 
+    #charInfo {
+        width: 100%;
+        max-height: none;
+        overflow-y: unset;
+    }
+    .stat_details { 
+        flex-direction: column; 
+        align-items: center;
+    }
+    .stat { width: 100%; }
+}

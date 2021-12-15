@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(54, 54, 54);
+}
+#mainContent {
+    margin: auto;
+}
+#mainContent > div {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1024px;
+    margin: auto;
+}
+
+#mainContent > div > div {
+    flex: 40%;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#mainContent img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    filter: brightness(50%);
+}  
+
+.text {
+    background-color: #2a2a2a;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+.text h4 {
+    margin: 0;
+    font-weight: normal;
+}
+ 
+@media screen and (max-width: 768px) { 
+    #mainContent > div > div {
+        flex: 100%;
+    }
+}

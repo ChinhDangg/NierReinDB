@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="nav.css">
+    <link rel='stylesheet' href='smallscreen.css'>
+    <link rel="stylesheet" href="companionInfo.css">
+    <title>Companion Information</title>
+</head>
+<body onload='getData()'>
+    <nav>
+        <div id='logo_menubutton'>
+          <div id='logo'><a href="index.html"><img src="Pics/mama-logo.png"></a></div>
+          <div id='menubutton'><img onclick='displayNavContent()' src='Pics/menuButton.png'></div>
+        </div>
+        <div id='contentLink_container'>
+          <a class='contentlink' href="characters.html">Characters</a>
+          <a class='contentlink' href="weapons.html">Weapons</a>
+          <a class='contentlink' href="memoirs.html">Memoirs</a>
+          <a class='contentlink' href="companions.html">Companions</a>
+        </div>
+      </nav>
+
+    <section id="infoSection">
+        <div id='charInfo'>
+            <div id='companionContainer'>
+                <img id='companion_Pic'>
+                <img id='companion_Element'>
+                <h3 id='companion_Name'></h3>
+            </div>
+            
+            <div id='skill_info'>
+                <div class='levelBlock_name'>
+                    <div>Skill</div>
+                    <div class='name'>
+                        <div class='abilityName'></div>
+                        <img class='abilityPic'>
+                    </div>
+                    <div class='level'>
+                        <div class='gauge_info'>
+                            <div class='gauge_title'>Skill Level</div>
+                        </div>
+                        <input type='range' min='1', max='15' class='level_slider' oninput='displaySliderValue(this.value, "abilityRangeLabel")'>
+                        <div id='abilityRangeLabel' class='levelRangeLabel'>Lv: 8</div>
+                    </div>
+                </div>
+                <div class='details'>
+                    <div class='effect'></div>
+                </div>
+            </div>
+
+            <div id='ability_info'>
+                <div class='levelBlock_name'>
+                    <div>Ability </div>
+                    <div class='name'>
+                        <div class='abilityName'></div>
+                        <img class='abilityPic'>
+                    </div>
+                    <div class='level'>
+                        <div class='gauge_info'>
+                            <div class='gauge_title'>Ability Level</div>
+                        </div>
+                        <input type='range' min='1', max='15' class='level_slider' oninput='displaySliderValue(this.value, "abilityRangeLabel2")'>
+                        <div id='abilityRangeLabel2' class='levelRangeLabel'>Lv: 8</div>
+                    </div>
+                </div>
+                <div class='details'>
+                    <div class='effect'></div>
+                </div>
+            </div>
+
+            <div id='stat_info'>
+                <div class='levelBlock_name'>
+                    <div>Stats</div>
+                    <div class='level'>
+                        <div class='level_block_abi level_block'  onclick='addNewInfoBlock(this, "level_block_abi")' style='background-color: rgb(102, 102, 102);'>Min</div>
+                        <div class='level_block_abi level_block'  onclick='addNewInfoBlock(this, "level_block_abi")'>Max</div>
+                    </div>
+                    <div class='name'>
+                        <div>Stats</div>
+                    </div>
+                </div>
+                <div class='details stat_details'>
+                    <div class='stat'>
+                        <div class='statname'>HP</div>
+                        <div class='statnumber'></div>
+                    </div>
+                    <div class='stat'>
+                        <div class='statname'>Attack</div>
+                        <div class='statnumber'></div>
+                    </div>
+                    <div class='stat'>
+                        <div class='statname'>Defense</div>
+                        <div class='statnumber'></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src='companionInfo.js'></script>
+    <script src='smallscreen.js'></script>
+</body>
+</html>

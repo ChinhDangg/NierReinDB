@@ -1,0 +1,51 @@
+body { 
+    margin: 0;     
+    font-family: Arial, Helvetica, sans-serif;  
+}
+nav {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    font-size: 20px;
+    padding-top: 5px;
+}
+nav img {
+    width: 50px;
+    height: 50px;
+}
+nav a {
+    text-decoration: none;
+    color: white; 
+    padding: 0 20px;
+}
+#contentLink_container a:hover { 
+    color: gray; 
+}
+#menubutton { 
+    display: none;
+}
+#menubutton img {
+    float: right;
+    cursor: pointer;
+}
+#contentLink_container, #logo_menubutton {
+    display: flex;
+}
+@media screen and (max-width: 768px) { 
+    #logo_menubutton { 
+        width: 100%;
+    }
+    #menubutton {
+        display: block;
+        width: 100%;
+    }
+    nav {
+        width: 100%;
+    }
+    #contentLink_container {
+        display: none;
+    }
+    #contentLink_container a:hover { 
+        background-color: rgb(70,70,70);
+    }
+}

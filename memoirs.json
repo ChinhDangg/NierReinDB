@@ -1,0 +1,14 @@
+{
+    "HP": {
+        "Set1": ["Devotion", "Purity", "Solemnity"],
+        "Set2": ["Experience", "Honesty", "Talent"],
+        "Small": "HP up by 15%",
+        "Big": "HP up by 25%"
+    },
+    "Critical Rate": {
+        "Set1": ["Alpha", "Hubris", "Mythos"],
+        "Set2": ["Preface", "Interlude", "The End"],
+        "Small": "Critical rate by 10%",
+        "Big": "Critical rate by up by 15%"
+    }
+}
